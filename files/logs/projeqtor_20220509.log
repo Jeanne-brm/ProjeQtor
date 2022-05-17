@@ -1,0 +1,2 @@
+2022-05-09 14:08:16.410 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-05-09 15:41:22.650 ***** ERROR ***** [V9.2.0] Impossible to load class menuReadWriteLocalization<br/>  => Not found in ../model/custom/MenuReadWriteLocalization.php <br/>  => Not found in ../model/MenuReadWriteLocalization.php <br/>  => Not found in ../model/persistence/MenuReadWriteLocalization.php <br/>

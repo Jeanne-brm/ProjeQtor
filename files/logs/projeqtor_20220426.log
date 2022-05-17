@@ -1,0 +1,19 @@
+2022-04-26 10:53:18.037 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-04-26 11:10:58.233 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-04-26 11:11:02.920 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-04-26 11:24:42.701 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-04-26 11:25:55.866 ===== TRACE ===== Login of non admin user during upgrade. User 'Guest'
+2022-04-26 11:26:27.933 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-04-26 11:56:52.075 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-04-26 11:56:59.454 ===== TRACE ===== Login error for user 'admin'
+2022-04-26 11:57:03.386 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2022-04-26 14:23:55.548 ===== TRACE ===== Cron started at 26/04/2022 14:23:55
+2022-04-26 14:23:55.604 ===== TRACE ===== generationImputationAlert() - No number of days defined - Exiting
+2022-04-26 14:23:55.604 ===== TRACE ===== generationImputationAlert() - No number of days defined - Exiting
+2022-04-26 14:23:55.605 ===== TRACE ===== Cron::run() - Calcul Imputation Alert for Resource
+2022-04-26 14:23:55.605 ===== TRACE ===== generationImputationAlert() - No number of days defined - Exiting
+2022-04-26 14:23:55.605 ===== TRACE ===== Cron::run() - Calcul Imputation Alert for ProjectLeader
+2022-04-26 14:23:55.640 ===== TRACE ===== generationImputationAlert() - No number of days defined - Exiting
+2022-04-26 14:23:55.640 ===== TRACE ===== Cron::run() - Calcul Imputation Alert for TeamManager
+2022-04-26 14:24:02.285 ===== TRACE ===== Cron::run() - generateImputationAlert for cronImputationAlertCronResource at 1546297200 MAIL MAIL MAIL NO
+2022-04-26 14:24:12.337 ===== TRACE ===== Cron normally stopped at 26/04/2022 14:24:12

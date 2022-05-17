@@ -1,0 +1,15 @@
+2022-05-17 10:28:35.438 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-05-17 10:28:41.612 ===== TRACE ===== Login error for user 'Guest'
+2022-05-17 10:28:45.395 ===== TRACE ===== Login error for user 'guest'
+2022-05-17 10:28:48.641 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-17 11:49:47.547 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-17 11:51:05.207 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-17 11:52:55.730 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-17 11:53:21.711 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-17 11:58:06.104 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-17 15:32:13.151 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-17 15:32:13.152 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\projeqtornisa\view\imputationList.php' at line (318)
+2022-05-17 15:32:13.154 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant logonisa - assumed 'logonisa' (this will throw an Error in a future version of PHP)
+2022-05-17 15:34:15.268 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-17 15:34:15.269 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\projeqtornisa\view\imputationList.php' at line (318)
+2022-05-17 15:34:15.270 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected '<'

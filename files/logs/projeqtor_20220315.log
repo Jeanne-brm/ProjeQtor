@@ -1,0 +1,233 @@
+2022-03-15 16:29:53.466 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-03-15 16:30:04.691 ===== TRACE ===== 
+2022-03-15 16:30:04.693 ===== TRACE ===== =====================================
+2022-03-15 16:30:04.693 ===== TRACE ===== 
+2022-03-15 16:30:04.693 ===== TRACE ===== DataBase actual Version = V9.0.6
+2022-03-15 16:30:04.694 ===== TRACE ===== ProjeQtOr actual Version = V9.2.0
+2022-03-15 16:30:04.694 ===== TRACE ===== 
+2022-03-15 16:30:04.695 ===== TRACE ===== =====================================
+2022-03-15 16:30:04.696 ===== TRACE ===== 
+2022-03-15 16:30:04.696 ===== TRACE ===== VERSION V9.1.0
+2022-03-15 16:30:04.696 ===== TRACE ===== 
+2022-03-15 16:30:04.709 ===== TRACE =====  1 lines inserted into table "menu".
+2022-03-15 16:30:04.719 ===== TRACE =====  13 lines inserted into table "modulemenu".
+2022-03-15 16:30:04.730 ===== TRACE =====  2 lines inserted into table "navigation".
+2022-03-15 16:30:04.736 ===== TRACE =====  3 lines inserted into table "habilitation".
+2022-03-15 16:30:04.741 ===== TRACE =====  3 lines inserted into table "accessright".
+2022-03-15 16:30:04.748 ===== TRACE =====  1 lines inserted into table "parameter".
+2022-03-15 16:30:04.806 ===== TRACE =====  Table "subtask" created.
+2022-03-15 16:30:04.835 ===== TRACE =====  Table "workcommand" created.
+2022-03-15 16:30:04.857 ===== TRACE =====  Table "workcommanddone" created.
+2022-03-15 16:30:04.895 ===== TRACE =====  Table "workcommandbilled" created.
+2022-03-15 16:30:05.281 ===== TRACE =====  Table "planningelement" altered.
+2022-03-15 16:30:05.464 ===== TRACE =====  Table "project" altered.
+2022-03-15 16:30:05.571 ===== TRACE =====  Table "status" altered.
+2022-03-15 16:30:05.576 ===== TRACE =====  1 lines inserted into table "status".
+2022-03-15 16:30:05.593 ===== TRACE =====  7 lines inserted into table "workflowstatus".
+2022-03-15 16:30:05.599 ===== TRACE =====  7 lines inserted into table "workflowstatus".
+2022-03-15 16:30:05.663 ===== TRACE =====  Table "project" altered.
+2022-03-15 16:30:05.927 ===== TRACE =====  Table "activity" altered.
+2022-03-15 16:30:06.801 ===== TRACE =====  Table "planningelement" altered.
+2022-03-15 16:30:06.918 ===== TRACE =====  Table "planningelementbaseline" altered.
+2022-03-15 16:30:06.932 ===== TRACE =====  1 lines inserted into table "linkable".
+2022-03-15 16:30:06.946 ===== TRACE =====  12 lines inserted into table "modulereport".
+2022-03-15 16:30:06.958 ===== TRACE =====  7 lines inserted into table "habilitationother".
+2022-03-15 16:30:06.987 ===== TRACE =====  1 lines inserted into table "report".
+2022-03-15 16:30:07.005 ===== TRACE =====  2 lines inserted into table "reportparameter".
+2022-03-15 16:30:07.028 ===== TRACE =====  3 lines inserted into table "habilitationreport".
+2022-03-15 16:30:07.036 ===== TRACE =====  3 lines inserted into table "report".
+2022-03-15 16:30:07.046 ===== TRACE =====  3 lines inserted into table "habilitationreport".
+2022-03-15 16:30:07.054 ===== TRACE =====  11 lines inserted into table "reportparameter".
+2022-03-15 16:30:07.061 ===== TRACE =====  4 lines inserted into table "modulereport".
+2022-03-15 16:30:07.156 ===== TRACE =====  Table "document" altered.
+2022-03-15 16:30:07.177 ===== TRACE =====  Table "approvalstatus" created.
+2022-03-15 16:30:07.190 ===== TRACE =====  4 lines inserted into table "approvalstatus".
+2022-03-15 16:30:07.192 ===== TRACE ===== 
+2022-03-15 16:30:07.192 ===== TRACE ===== DATABASE UPDATED
+2022-03-15 16:30:07.192 ===== TRACE =====  WITH NO ERROR
+2022-03-15 16:30:07.192 ===== TRACE ===== 
+2022-03-15 16:30:07.192 ===== TRACE ===== =====================================
+2022-03-15 16:30:07.192 ===== TRACE ===== 
+2022-03-15 16:30:07.192 ===== TRACE ===== VERSION V9.1.1
+2022-03-15 16:30:07.193 ===== TRACE ===== 
+2022-03-15 16:30:07.711 ===== TRACE =====  Table "planningelementbaseline" altered.
+2022-03-15 16:30:07.742 ===== TRACE =====  3 lines deleted from table "accessright".
+2022-03-15 16:30:07.743 ===== TRACE ===== 
+2022-03-15 16:30:07.743 ===== TRACE ===== DATABASE UPDATED
+2022-03-15 16:30:07.743 ===== TRACE =====  WITH NO ERROR
+2022-03-15 16:30:07.744 ===== TRACE ===== 
+2022-03-15 16:30:07.744 ===== TRACE ===== =====================================
+2022-03-15 16:30:07.745 ===== TRACE ===== 
+2022-03-15 16:30:07.745 ===== TRACE ===== VERSION V9.1.2
+2022-03-15 16:30:07.745 ===== TRACE ===== 
+2022-03-15 16:30:07.786 ===== TRACE =====  1 lines deleted from table "modulemenu".
+2022-03-15 16:30:07.800 ===== TRACE =====  7 lines inserted into table "habilitationother".
+2022-03-15 16:30:07.810 ===== TRACE =====  0 lines updated into table "filtercriteria".
+2022-03-15 16:30:08.040 ===== TRACE =====  0 lines updated into table "columnselector".
+2022-03-15 16:30:08.050 ===== TRACE =====  2 lines deleted from table "accessright".
+2022-03-15 16:30:08.050 ===== TRACE ===== 
+2022-03-15 16:30:08.051 ===== TRACE ===== DATABASE UPDATED
+2022-03-15 16:30:08.051 ===== TRACE =====  WITH NO ERROR
+2022-03-15 16:30:08.051 ===== TRACE ===== 
+2022-03-15 16:30:08.052 ===== TRACE ===== =====================================
+2022-03-15 16:30:08.052 ===== TRACE ===== 
+2022-03-15 16:30:08.053 ===== TRACE ===== VERSION V9.2.0
+2022-03-15 16:30:08.053 ===== TRACE ===== 
+2022-03-15 16:30:08.071 ===== TRACE =====  3 lines inserted into table "parameter".
+2022-03-15 16:30:08.118 ===== TRACE =====  Table "type" altered.
+2022-03-15 16:30:08.230 ===== TRACE =====  Table "activity" altered.
+2022-03-15 16:30:08.247 ===== TRACE =====  Table "statusperiod" created.
+2022-03-15 16:30:08.258 ===== TRACE =====  4 lines inserted into table "habilitationother".
+2022-03-15 16:30:08.265 ===== TRACE =====  3 lines inserted into table "habilitationother".
+2022-03-15 16:30:08.269 ===== TRACE =====  1 lines updated into table "status".
+2022-03-15 16:30:08.306 ===== TRACE =====  Table "delay" altered.
+2022-03-15 16:30:08.586 ===== TRACE =====  Table "project" altered.
+2022-03-15 16:30:08.634 ===== TRACE =====  Table "activityworkunit" created.
+2022-03-15 16:30:08.733 ===== TRACE =====  0 lines inserted into table "activityworkunit".
+2022-03-15 16:30:08.941 ===== TRACE =====  Table "planningelement" altered.
+2022-03-15 16:30:09.077 ===== TRACE =====  Table "planningelementbaseline" altered.
+2022-03-15 16:30:09.369 ===== TRACE =====  Table "workcommanddone" altered.
+2022-03-15 16:30:09.386 ===== TRACE =====  0 lines updated into table "planningelement".
+2022-03-15 16:30:09.387 ===== TRACE =====  0 lines deleted from table "workcommanddone".
+2022-03-15 16:30:09.387 ===== TRACE =====  0 lines inserted into table "workcommanddone".
+2022-03-15 16:30:10.801 ===== TRACE =====  Table "planningelement" altered.
+2022-03-15 16:30:11.380 ===== TRACE =====  Table "planningelement" altered.
+2022-03-15 16:30:12.431 ===== TRACE =====  Table "planningelement" altered.
+2022-03-15 16:30:12.926 ===== TRACE =====  Table "planningelement" altered.
+2022-03-15 16:30:13.027 ===== TRACE =====  Table "planningelementbaseline" altered.
+2022-03-15 16:30:13.107 ===== TRACE =====  Table "planningelementbaseline" altered.
+2022-03-15 16:30:13.165 ===== TRACE =====  Table "planningelementbaseline" altered.
+2022-03-15 16:30:13.222 ===== TRACE =====  Table "planningelementbaseline" altered.
+2022-03-15 16:30:13.351 ===== TRACE =====  Table "ticket" altered.
+2022-03-15 16:30:13.403 ===== TRACE =====  Table "ticket" altered.
+2022-03-15 16:30:13.450 ===== TRACE =====  Table "type" altered.
+2022-03-15 16:30:13.457 ===== TRACE =====  1 lines inserted into table "menu".
+2022-03-15 16:30:13.463 ===== TRACE =====  1 lines inserted into table "navigation".
+2022-03-15 16:30:13.475 ===== TRACE =====  3 lines inserted into table "habilitation".
+2022-03-15 16:30:13.583 ===== TRACE =====  Table "documentdirectory" altered.
+2022-03-15 16:30:13.639 ===== TRACE =====  Table "documentdirectory" altered.
+2022-03-15 16:30:13.661 ===== TRACE =====  Index "documentdirectoryResource" created.
+2022-03-15 16:30:13.674 ===== TRACE =====  Index "documentdirectoryUser" created.
+2022-03-15 16:30:13.681 ===== TRACE =====  13 lines updated into table "documentdirectory".
+2022-03-15 16:30:13.684 ===== TRACE =====  1 lines updated into table "menu".
+2022-03-15 16:30:13.703 ===== TRACE =====  Table "documentright" created.
+2022-03-15 16:30:13.711 ===== TRACE =====  91 lines inserted into table "documentright".
+2022-03-15 16:30:13.721 ===== TRACE =====  3 lines updated into table "type".
+2022-03-15 16:30:13.732 ===== TRACE =====  5 lines inserted into table "report".
+2022-03-15 16:30:13.741 ===== TRACE =====  5 lines inserted into table "habilitationreport".
+2022-03-15 16:30:13.750 ===== TRACE =====  26 lines inserted into table "reportparameter".
+2022-03-15 16:30:13.766 ===== TRACE =====  5 lines inserted into table "modulereport".
+2022-03-15 16:30:13.776 ===== TRACE =====  Table "macrostatus" created.
+2022-03-15 16:30:13.781 ===== TRACE =====  3 lines inserted into table "macrostatus".
+2022-03-15 16:30:13.781 ===== TRACE =====  0 lines deleted from table "accessright".
+2022-03-15 16:30:13.853 ===== TRACE =====  Table "subtask" altered.
+2022-03-15 16:30:13.952 ===== TRACE =====  Table "workcommanddone" altered.
+2022-03-15 16:30:14.202 ===== TRACE =====  Table "workcommandbilled" altered.
+2022-03-15 16:30:15.538 ===== TRACE =====  Table "workcommand" altered.
+2022-03-15 16:30:16.444 ===== TRACE =====  Table "workcommand" altered.
+2022-03-15 16:30:16.827 ===== TRACE =====  Table "workcommand" altered.
+2022-03-15 16:30:17.098 ===== TRACE =====  Table "workcommand" altered.
+2022-03-15 16:30:17.242 ===== TRACE =====  Table "workcommand" altered.
+2022-03-15 16:30:17.790 ===== TRACE =====  Table "workcommand" altered.
+2022-03-15 16:30:18.000 ===== TRACE =====  Table "workcommand" altered.
+2022-03-15 16:30:18.077 ===== TRACE =====  Table "asset" altered.
+2022-03-15 16:30:18.096 ===== TRACE =====  Table "kpivaluerequest" created.
+2022-03-15 16:30:18.121 ===== TRACE =====  Index "kpivaluerequestReference" created.
+2022-03-15 16:30:18.127 ===== TRACE =====  1 lines inserted into table "cronexecution".
+2022-03-15 16:30:18.134 ===== TRACE =====  1 lines inserted into table "parameter".
+2022-03-15 16:30:18.163 ===== TRACE =====  Table "pokercomplexity" created.
+2022-03-15 16:30:18.226 ===== TRACE =====  Table "pokersession" created.
+2022-03-15 16:30:18.375 ===== TRACE =====  Table "pokerresource" created.
+2022-03-15 16:30:18.457 ===== TRACE =====  Table "pokeritem" created.
+2022-03-15 16:30:18.503 ===== TRACE =====  Table "pokervote" created.
+2022-03-15 16:30:18.513 ===== TRACE =====  4 lines inserted into table "menu".
+2022-03-15 16:30:18.518 ===== TRACE =====  4 lines inserted into table "navigation".
+2022-03-15 16:30:18.524 ===== TRACE =====  11 lines inserted into table "pokercomplexity".
+2022-03-15 16:30:18.529 ===== TRACE =====  2 lines inserted into table "type".
+2022-03-15 16:30:18.532 ===== TRACE =====  1 lines inserted into table "module".
+2022-03-15 16:30:18.543 ===== TRACE =====  4 lines inserted into table "modulemenu".
+2022-03-15 16:30:18.551 ===== TRACE =====  9 lines inserted into table "habilitation".
+2022-03-15 16:30:18.555 ===== TRACE =====  7 lines inserted into table "habilitation".
+2022-03-15 16:30:18.562 ===== TRACE =====  16 lines inserted into table "accessright".
+2022-03-15 16:30:18.613 ===== TRACE =====  Table "workunit" altered.
+2022-03-15 16:30:18.620 ===== TRACE =====  6 lines inserted into table "cronexecution".
+2022-03-15 16:30:18.660 ===== TRACE =====  Table "navigation" altered.
+2022-03-15 16:30:18.670 ===== TRACE =====  1 lines updated into table "navigation".
+2022-03-15 16:30:18.675 ===== TRACE =====  1 lines updated into table "navigation".
+2022-03-15 16:30:18.678 ===== TRACE =====  4 lines inserted into table "menu".
+2022-03-15 16:30:18.685 ===== TRACE =====  4 lines inserted into table "habilitation".
+2022-03-15 16:30:18.688 ===== TRACE =====  3 lines inserted into table "accessright".
+2022-03-15 16:30:18.690 ===== TRACE =====  1 lines inserted into table "module".
+2022-03-15 16:30:18.696 ===== TRACE =====  3 lines inserted into table "modulemenu".
+2022-03-15 16:30:18.740 ===== TRACE =====  Table "localizationtranslator" created.
+2022-03-15 16:30:18.824 ===== TRACE =====  Table "localizationtranslatorlanguage" created.
+2022-03-15 16:30:18.850 ===== TRACE =====  Table "languageskilllevel" created.
+2022-03-15 16:30:18.858 ===== TRACE =====  1 lines inserted into table "menu".
+2022-03-15 16:30:18.867 ===== TRACE =====  1 lines inserted into table "habilitation".
+2022-03-15 16:30:18.877 ===== TRACE =====  1 lines inserted into table "accessright".
+2022-03-15 16:30:18.884 ===== TRACE =====  1 lines inserted into table "menu".
+2022-03-15 16:30:18.891 ===== TRACE =====  1 lines inserted into table "habilitation".
+2022-03-15 16:30:18.926 ===== TRACE =====  Table "localizationrequest" created.
+2022-03-15 16:30:18.973 ===== TRACE =====  Table "type" altered.
+2022-03-15 16:30:18.993 ===== TRACE =====  Table "localizationItem" created.
+2022-03-15 16:30:19.004 ===== TRACE =====  1 lines inserted into table "menu".
+2022-03-15 16:30:19.012 ===== TRACE =====  1 lines inserted into table "habilitation".
+2022-03-15 16:30:19.026 ===== TRACE =====  2 lines inserted into table "mailable".
+2022-03-15 16:30:19.058 ===== TRACE =====  Table "type" altered.
+2022-03-15 16:30:19.063 ===== TRACE =====  13 lines inserted into table "navigation".
+2022-03-15 16:30:19.065 ===== TRACE =====  1 lines updated into table "navigation".
+2022-03-15 16:30:19.067 ===== TRACE =====  1 lines updated into table "navigation".
+2022-03-15 16:30:19.071 ===== TRACE =====  3 lines inserted into table "modulemenu".
+2022-03-15 16:30:19.077 ===== TRACE =====  3 lines inserted into table "languageskilllevel".
+2022-03-15 16:30:19.081 ===== TRACE =====  3 lines inserted into table "type".
+2022-03-15 16:30:19.085 ===== TRACE =====  2 lines inserted into table "eventformail".
+2022-03-15 16:30:19.087 ===== TRACE =====  2 lines inserted into table "parameter".
+2022-03-15 16:30:19.090 ===== TRACE =====  1 lines inserted into table "mailable".
+2022-03-15 16:30:19.092 ===== TRACE =====  1 lines updated into table "report".
+2022-03-15 16:30:19.094 ===== TRACE =====  1 lines updated into table "report".
+2022-03-15 16:30:19.096 ===== TRACE =====  1 lines updated into table "report".
+2022-03-15 16:30:19.098 ===== TRACE =====  1 lines updated into table "report".
+2022-03-15 16:30:19.099 ===== TRACE =====  1 lines updated into table "navigation".
+2022-03-15 16:30:19.101 ===== TRACE =====  1 lines updated into table "navigation".
+2022-03-15 16:30:19.140 ===== TRACE =====  Table "message" altered.
+2022-03-15 16:30:19.183 ===== TRACE =====  Table "message" altered.
+2022-03-15 16:30:19.191 ===== TRACE =====  11 lines inserted into table "reportparameter".
+2022-03-15 16:30:19.301 ===== TRACE =====  Index "indicatorvalueType" created.
+2022-03-15 16:30:19.303 ===== TRACE ===== 
+2022-03-15 16:30:19.303 ===== TRACE ===== DATABASE UPDATED
+2022-03-15 16:30:19.304 ===== TRACE =====  WITH NO ERROR
+2022-03-15 16:30:19.304 ===== TRACE ===== 
+2022-03-15 16:30:19.423 ===== TRACE ===== =====================================
+2022-03-15 16:30:19.423 ===== TRACE ===== 
+2022-03-15 16:30:19.424 ===== TRACE ===== VERSION V9.1.0.mysql
+2022-03-15 16:30:19.424 ===== TRACE ===== 
+2022-03-15 16:30:19.441 ===== TRACE =====  Table "cataloguo" altered.
+2022-03-15 16:30:19.441 ===== TRACE ===== 
+2022-03-15 16:30:19.441 ===== TRACE ===== DATABASE UPDATED
+2022-03-15 16:30:19.441 ===== TRACE =====  WITH NO ERROR
+2022-03-15 16:30:19.441 ===== TRACE ===== 
+2022-03-15 16:30:19.441 ===== TRACE ===== update document idApprovalStatus [9.1.0]
+2022-03-15 16:30:19.486 ===== TRACE =====    => 0 to update
+2022-03-15 16:30:19.486 ===== TRACE =====    => 0 documents updated
+2022-03-15 16:30:19.544 ===== TRACE ===== update workCommandDone [9.2.0]
+2022-03-15 16:30:20.162 ===== TRACE =====    => 0 to update
+2022-03-15 16:30:20.162 ===== TRACE =====    => 0 workCommandDone updated
+2022-03-15 16:30:21.358 ===== TRACE ===== =====================================
+2022-03-15 16:30:21.359 ===== TRACE ===== 
+2022-03-15 16:30:21.359 ===== TRACE ===== DATABASE UPDATE COMPLETED TO VERSION V9.2.0
+2022-03-15 16:30:21.360 ===== TRACE ===== 
+2022-03-15 16:30:21.360 ===== TRACE ===== =====================================
+2022-03-15 16:30:21.360 ===== TRACE ===== 
+2022-03-15 16:30:21.831 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2022-03-15 16:31:07.006 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-03-15 16:31:39.920 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-03-15 16:33:30.170 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-03-15 16:34:56.551 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-03-15 16:35:16.990 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-03-15 16:35:29.088 ===== TRACE ===== NEW CONNECTED USER 'eavila'
+2022-03-15 16:47:51.317 ===== TRACE ===== DISCONNECTED USER 'eavila'
+2022-03-15 16:47:52.637 ===== TRACE ===== NEW CONNECTED USER 'eavila' (using remember me feature)
+2022-03-15 16:50:52.024 ===== TRACE ===== DISCONNECTED USER 'eavila'
+2022-03-15 16:50:56.060 ===== TRACE ===== NEW CONNECTED USER 'eavila' (using remember me feature)
+2022-03-15 17:16:38.776 ===== TRACE ===== DISCONNECTED USER 'eavila'
+2022-03-15 17:35:41.700 ===== TRACE ===== DISCONNECTED USER 'eavila'
