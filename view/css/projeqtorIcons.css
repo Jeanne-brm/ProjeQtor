@@ -310,6 +310,13 @@
 .ProjeQtOrFlatRed .iconAdministration { background-image: url(customIcons/new/iconAdministration.svg);  background-repeat: no-repeat; }
 .ProjeQtOrNewGui .iconAdministration { background-image: url(customIcons/new/iconAdministration.svg);  background-repeat: no-repeat; }
 
+.iconNisa { width: 128px; height: 128px; background-image: url(customIcons/new/iconNisa.svg);  background-repeat: no-repeat;  }
+.ProjeQtOrFlatBlue .iconNisa { background-image: url(customIcons/new/iconNisa.svg);  background-repeat: no-repeat; }
+.ProjeQtOrFlatGreen .iconNisa { background-image: url(customIcons/new/iconNisa.svg);  background-repeat: no-repeat; }
+.ProjeQtOrFlatGrey .iconNisa { background-image: url(customIcons/new/iconNisa.svg);  background-repeat: no-repeat; }
+.ProjeQtOrFlatRed .iconNisa { background-image: url(customIcons/new/iconNisa.svg);  background-repeat: no-repeat; }
+.ProjeQtOrNewGui .iconNisa {  width: 128px; height: 128px; background-image: url(customIcons/new/iconNisa.svg);  background-repeat: no-repeat; }
+
 .iconAdmin { background-image: url(images/iconAdmin32.png);  background-repeat: no-repeat;  }
 .ProjeQtOrFlatBlue .iconAdmin { background-image: url(customIcons/blue/iconAdmin.png);  background-repeat: no-repeat; }
 .ProjeQtOrFlatGreen .iconAdmin { background-image: url(customIcons/green/iconAdmin.png);  background-repeat: no-repeat; }
@@ -1194,7 +1201,7 @@
 .ProjeQtOrFlatRed .iconEraser { background-image: url(customIcons/new/iconEraser.svg);  background-repeat: no-repeat; }
 .ProjeQtOrNewGui .iconEraser { background-image: url(customIcons/new/iconEraser.svg);  background-repeat: no-repeat; }
 
-/* inexistante dans thème standard */
+/* inexistante dans thï¿½me standard */
 .iconError { background-image: url(images/iconError.png);  background-repeat: no-repeat;  }
 .ProjeQtOrFlatBlue .iconError { background-image: url(customIcons/blue/iconError.png);  background-repeat: no-repeat; }
 .ProjeQtOrFlatGreen .iconError { background-image: url(customIcons/green/iconError.png);  background-repeat: no-repeat; }
@@ -2576,7 +2583,7 @@
 .ProjeQtOrFlatRed .iconRiskLevel { background-image: url(customIcons/red/iconRiskLevel.png);  background-repeat: no-repeat; }
 .ProjeQtOrNewGui .iconRiskLevel { background-image: url(customIcons/new/iconRiskLevel.svg);  background-repeat: no-repeat; }
 
-/* les deux existent (managementPlan pour 8.6 et Management pour 9.0 - ne sait pas laquelle doit être concervée */
+/* les deux existent (managementPlan pour 8.6 et Management pour 9.0 - ne sait pas laquelle doit ï¿½tre concervï¿½e */
 .iconRiskManagement { background-image: url(images/iconRiskManagementPlan32.png);  background-repeat: no-repeat;  }
 .ProjeQtOrFlatBlue .iconRiskManagement { background-image: url(customIcons/blue/iconRiskManagementPlan.png);  background-repeat: no-repeat; }
 .ProjeQtOrFlatGreen .iconRiskManagement { background-image: url(customIcons/green/iconRiskManagementPlan.png);  background-repeat: no-repeat; }

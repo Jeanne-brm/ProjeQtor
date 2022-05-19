@@ -13,3 +13,5 @@
 2022-05-17 15:34:15.268 ***** ERROR ***** [V9.2.0] EXCEPTION *****
 2022-05-17 15:34:15.269 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\projeqtornisa\view\imputationList.php' at line (318)
 2022-05-17 15:34:15.270 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected '<'
+2022-05-17 17:15:39.345 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-17 17:15:55.918 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)

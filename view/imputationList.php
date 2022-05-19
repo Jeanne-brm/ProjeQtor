@@ -311,41 +311,9 @@ if(sessionValueExists('listShowIdleTimesheet')and getSessionValue('listShowIdleT
                     setTimeout('saveImputation();',10);;
                  </script>
               </button>
-
 <!-- tests-->
-
-              <button data-dojo-type="dijit/form/Button" 
-                  data-dojo-id="refreshCalendarButton"  <?php if(isNewGui()){ ?> class="dynamicTextButton" <?php } ?>
-                  type="button" 
-                  onclick=""><?php echo i18n("coucou"); ?>
-              </button>
               
-              <button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconCut', showLabel: false" type="button">cut</button>
-              <button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'test testicon', showLabel: false" type="button">cut</button>
-              <button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconCut', showLabel: false" type="button">cut</button>
-
-
-              <div id="someDialog" data-dojo-type="dijit/Dialog"
-                  data-dojo-props="title: 'Hello World!'">
-                <p>I am a dialog. That makes me happy.</p>
-              </div>
-              <button type="button" id="myButton" data-dojo-type="dijit/form/Button">
-                <span>Click Me!</span>
-                <script type="dojo/on" data-dojo-event="click">
-                  var registry = require("dijit/registry");
-                  registry.byId("someDialog").show();
-                </script>
-                </button>
-
-                <script>
-                  // Require the Button, TooltipDialog, DropDownButton, and TextBox classes
-                  require(["dojo/parser", "dijit/form/DropDownButton", "dijit/TooltipDialog", "dijit/form/TextBox", "dijit/form/Button", "dojo/domReady!"],
-                  function(parser){
-                    parser.parse();
-                  });
-
-                </script>
-                <div data-dojo-type="dijit/form/DropDownButton">
+                <div data-dojo-type="dijit/form/DropDownButton" data-dojo-props='icon:"/images/logonisa.png"'>
                   <span>Login</span><!-- Text for the button -->
                   <!-- The dialog portion -->
                   <div data-dojo-type="dijit/TooltipDialog" id="ttDialog">
@@ -357,6 +325,14 @@ if(sessionValueExists('listShowIdleTimesheet')and getSessionValue('listShowIdleT
                     <br />
                     <button data-dojo-type="dijit/form/Button" data-dojo-props="onClick:doAlert" type="submit">Submit</button>
                   </div>
+                </div>
+
+                <div data-dojo-type="dijit/form/Button" iconClass="iconAdministration iconSize22 roundedIconButton imageColorNewGui" >
+                  <span>Login2</span><!-- Text for the button -->
+                </div>
+
+                <div data-dojo-type="dijit/form/Button" iconClass="iconNisa iconSize22 roundedIconButton imageColorNewGui" >
+                  <span>Login3</span><!-- Text for the button -->
                 </div>
 
  <!--test-->
