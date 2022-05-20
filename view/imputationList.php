@@ -311,32 +311,9 @@ if(sessionValueExists('listShowIdleTimesheet')and getSessionValue('listShowIdleT
                     setTimeout('saveImputation();',10);;
                  </script>
               </button>
-<!-- tests-->
               
-                <div data-dojo-type="dijit/form/DropDownButton" data-dojo-props='icon:"/images/logonisa.png"'>
-                  <span>Login</span><!-- Text for the button -->
-                  <!-- The dialog portion -->
-                  <div data-dojo-type="dijit/TooltipDialog" id="ttDialog">
-                    <strong><label for="email" style="display:inline-block;width:100px;">Email:</label></strong>
-                    <div data-dojo-type="dijit/form/TextBox" id="email"></div>
-                    <br />
-                    <strong><label for="pass" style="display:inline-block;width:100px;">Password:</label></strong>
-                    <div data-dojo-type="dijit/form/TextBox" id="pass"></div>
-                    <br />
-                    <button data-dojo-type="dijit/form/Button" data-dojo-props="onClick:doAlert" type="submit">Submit</button>
-                  </div>
-                </div>
-
-                <div data-dojo-type="dijit/form/Button" iconClass="iconAdministration iconSize22 roundedIconButton imageColorNewGui" >
-                  <span>Login2</span><!-- Text for the button -->
-                </div>
-
-                <div data-dojo-type="dijit/form/Button" iconClass="iconNisa iconSize22 roundedIconButton imageColorNewGui" >
-                  <span>Login3</span><!-- Text for the button -->
-                </div>
-
- <!--test-->
-               
+              <!-- Ajout du bouton NISA -->
+              <?php include 'imputationNisa.php'?>
 
               <?php if (! isNewGui()) { ?>
               <button title="<?php echo i18n('print')?>"  

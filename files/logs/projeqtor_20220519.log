@@ -2,3 +2,60 @@
 2022-05-19 10:21:03.451 ===== TRACE ===== DISCONNECTED USER 'guest'
 2022-05-19 10:22:18.912 ===== TRACE ===== DISCONNECTED USER 'guest'
 2022-05-19 10:25:53.107 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-19 10:36:08.062 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-19 10:44:07.029 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-19 11:01:33.455 ===== TRACE ===== Login error for user 'guest'
+2022-05-19 11:01:37.354 ===== TRACE ===== Login error for user 'guest'
+2022-05-19 11:01:40.727 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-19 13:34:48.368 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-19 13:34:48.369 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\external\html2pdf\src\Html2Pdf.php' at line (1457)
+2022-05-19 13:34:48.372 ***** ERROR ***** [V9.2.0] cause = The html tag [button] is not known by Html2Pdf. You can create it and push it on the Html2Pdf GitHub project.
+2022-05-19 13:34:48.374 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\external\html2pdf\src\Html2Pdf.php (1423) -> _executeAction()
+2022-05-19 13:34:48.374 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\external\html2pdf\src\Html2Pdf.php (5605) -> _makeHTMLcode()
+2022-05-19 13:34:48.374 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\external\html2pdf\src\Html2Pdf.php (1455) -> _tag_open_TD()
+2022-05-19 13:34:48.376 ***** ERROR ***** [V9.2.0]    => #3 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\external\html2pdf\src\Html2Pdf.php (1409) -> _executeAction()
+2022-05-19 13:34:48.378 ***** ERROR ***** [V9.2.0]    => #4 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\external\html2pdf\src\Html2Pdf.php (5605) -> _makeHTMLcode()
+2022-05-19 13:34:48.378 ***** ERROR ***** [V9.2.0]    => #5 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\external\html2pdf\src\Html2Pdf.php (1455) -> _tag_open_TD()
+2022-05-19 13:34:48.378 ***** ERROR ***** [V9.2.0]    => #6 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\external\html2pdf\src\Html2Pdf.php (1409) -> _executeAction()
+2022-05-19 13:34:48.379 ***** ERROR ***** [V9.2.0]    => #7 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\external\html2pdf\src\Html2Pdf.php (611) -> _makeHTMLcode()
+2022-05-19 13:34:48.379 ***** ERROR ***** [V9.2.0]    => #8 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\print.php (405) -> writeHTML()
+2022-05-19 13:34:48.379 ***** ERROR ***** [V9.2.0]    => #9 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\print.php (295) -> finalizePrint()
+2022-05-19 13:34:48.379 ***** ERROR ***** [V9.2.0]    => Error on print for parameters:
+2022-05-19 13:34:48.379 ***** ERROR ***** [V9.2.0]       -> page : ../report/imputation.php
+2022-05-19 13:34:48.379 ***** ERROR ***** [V9.2.0]       -> object class : Work
+2022-05-19 13:34:48.380 ***** ERROR ***** [V9.2.0]       -> object id : 
+2022-05-19 13:34:48.380 ***** ERROR ***** [V9.2.0]       -> report name : 
+2022-05-19 13:43:52.171 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-19 13:43:52.172 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\report\imputation.php' at line (30)
+2022-05-19 13:43:52.173 ***** ERROR ***** [V9.2.0] cause = Undefined index: userId
+2022-05-19 13:43:53.111 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-19 13:44:05.148 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-19 13:44:44.858 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-19 13:44:44.859 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\report\imputation.php' at line (30)
+2022-05-19 13:44:44.859 ***** ERROR ***** [V9.2.0] cause = Undefined index: userId
+2022-05-19 13:44:45.676 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-19 13:44:51.901 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-19 14:14:17.327 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-19 14:14:17.328 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (75)
+2022-05-19 14:14:17.329 ***** ERROR ***** [V9.2.0] cause = Undefined variable: showPassword
+2022-05-19 14:15:12.006 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-19 14:15:12.007 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (75)
+2022-05-19 14:15:12.007 ***** ERROR ***** [V9.2.0] cause = Undefined variable: showPassword
+2022-05-19 15:46:16.630 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-19 15:46:16.631 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (4)
+2022-05-19 15:46:16.631 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant dojo - assumed 'dojo' (this will throw an Error in a future version of PHP)
+2022-05-19 15:46:24.110 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-19 15:46:24.112 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (4)
+2022-05-19 15:46:24.113 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant dojo - assumed 'dojo' (this will throw an Error in a future version of PHP)
+2022-05-19 16:18:07.667 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-19 16:18:07.668 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (48)
+2022-05-19 16:18:07.669 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant dojo - assumed 'dojo' (this will throw an Error in a future version of PHP)
+2022-05-19 16:18:16.599 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-19 16:18:16.600 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (48)
+2022-05-19 16:18:16.601 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant dojo - assumed 'dojo' (this will throw an Error in a future version of PHP)
+2022-05-19 16:18:50.049 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-19 16:18:50.050 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (47)
+2022-05-19 16:18:50.050 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant dojo - assumed 'dojo' (this will throw an Error in a future version of PHP)
+2022-05-19 16:58:35.017 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-19 16:58:35.019 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (15)
+2022-05-19 16:58:35.019 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant dojo - assumed 'dojo' (this will throw an Error in a future version of PHP)
