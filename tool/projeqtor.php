@@ -5703,3 +5703,6 @@ function decryptPwd($pwd){
 }
 
 //
+function helloPressed(){
+  alert('You pressed the button');
+}

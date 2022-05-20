@@ -1,0 +1,27 @@
+2022-05-20 10:18:34.835 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-20 13:49:12.625 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-20 13:49:12.626 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\functionNisa.php' at line (2)
+2022-05-20 13:49:12.627 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+2022-05-20 13:49:12.627 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-20 13:51:38.550 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-20 13:51:38.551 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\functionNisa.php' at line (2)
+2022-05-20 13:51:38.553 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+2022-05-20 13:51:38.554 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-20 13:53:12.118 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-20 13:53:12.119 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php' at line (319)
+2022-05-20 13:53:12.119 ***** ERROR ***** [V9.2.0] cause = Undefined variable: obj
+2022-05-20 13:55:33.217 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-20 13:55:33.218 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php' at line (319)
+2022-05-20 13:55:33.218 ***** ERROR ***** [V9.2.0] cause = Call to undefined method Parameter::nisa()
+2022-05-20 13:55:33.219 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-20 15:25:30.680 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-20 15:25:30.681 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\functionNisa.php' at line (2)
+2022-05-20 15:25:30.682 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected '<', expecting end of file
+2022-05-20 15:25:30.682 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (316) -> include()
+2022-05-20 15:25:30.682 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-20 15:26:24.513 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-20 15:26:24.514 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\functionNisa.php' at line (3)
+2022-05-20 15:26:24.514 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected 'var' (T_VAR)
+2022-05-20 15:26:24.515 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (316) -> include()
+2022-05-20 15:26:24.515 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-20 16:22:09.632 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)

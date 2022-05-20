@@ -314,6 +314,13 @@ if(sessionValueExists('listShowIdleTimesheet')and getSessionValue('listShowIdleT
               
               <!-- Ajout du bouton NISA -->
               <?php include 'imputationNisa.php'?>
+              <?php include 'functionNisa.php';
+              echo "<button onClick='show_hide()'>Show/Hide</button>";
+              //display this paragraph when button is clicked
+              echo'<button id="parag" style="display:none;">Welcome to Codespeedy.</button>';
+              
+              ?>
+          
 
               <?php if (! isNewGui()) { ?>
               <button title="<?php echo i18n('print')?>"  

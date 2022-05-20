@@ -1,4 +1,5 @@
 <?php
+require_once "../tool/projeqtor.php";
 function loginNisa() {
    $login= dojo.byId("login").value;
    echo $login;
@@ -13,6 +14,8 @@ function bonjour(){
     echo 'Bonjour à tous <br>';
 }
 ?>
+
+
 
 
 <div data-dojo-type="dijit/form/DropDownButton" iconClass="iconNisa iconSize22 roundedIconButton imageColorNewGui">
@@ -59,6 +62,7 @@ function bonjour(){
             <button tabindex="3" id="loginButton"  dojoType="dijit.form.Button" type="submit" class="largeTextButton" showlabel="true" >
             <?php echo i18n('loginLib');?>
             <script type="dojo/connect" event="onClick" args="evt">
+                getSessionUser();
                 bonjour();
                 console.log('you pressed the button');
                 alert(dojo.byId("login").value);
@@ -78,8 +82,6 @@ function bonjour(){
             <button data-dojo-type="dijit/form/Button" id="T1465" data-dojo-props='onClick:function(){console.log($login); }, iconClass:"plusIcon", value:"Create"'>
                 Create
             </button>
-
-
         </td>
         <td></td>
         </tr>
