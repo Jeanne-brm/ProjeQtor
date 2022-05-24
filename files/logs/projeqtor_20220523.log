@@ -1,0 +1,176 @@
+2022-05-23 09:38:51.893 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-23 09:38:58.731 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-23 09:38:58.732 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php' at line (113)
+2022-05-23 09:38:58.733 ***** ERROR ***** [V9.2.0] cause = Client error: `POST http://nisa.nisa.10.20.2.179.nip.io/login_check` resulted in a `404 Not Found` response:
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</c (truncated...)
+
+2022-05-23 09:38:58.733 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\guzzle\src\Middleware.php (69) -> create()
+2022-05-23 09:38:58.734 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (204) -> GuzzleHttp\{closure}()
+2022-05-23 09:38:58.735 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (153) -> callHandler()
+2022-05-23 09:38:58.735 ***** ERROR ***** [V9.2.0]    => #3 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\TaskQueue.php (48) -> GuzzleHttp\Promise\{closure}()
+2022-05-23 09:38:58.735 ***** ERROR ***** [V9.2.0]    => #4 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (248) -> run()
+2022-05-23 09:38:58.735 ***** ERROR ***** [V9.2.0]    => #5 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (224) -> invokeWaitFn()
+2022-05-23 09:38:58.735 ***** ERROR ***** [V9.2.0]    => #6 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (269) -> waitIfPending()
+2022-05-23 09:38:58.735 ***** ERROR ***** [V9.2.0]    => #7 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (226) -> invokeWaitList()
+2022-05-23 09:38:58.735 ***** ERROR ***** [V9.2.0]    => #8 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (62) -> waitIfPending()
+2022-05-23 09:38:58.736 ***** ERROR ***** [V9.2.0]    => #9 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\guzzle\src\Client.php (187) -> wait()
+2022-05-23 09:38:58.736 ***** ERROR ***** [V9.2.0]    => #10 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php (14) -> request()
+2022-05-23 09:38:58.736 ***** ERROR ***** [V9.2.0]    => #11 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\functionNisaa.php (31) -> authNisa()
+2022-05-23 09:38:58.736 ***** ERROR ***** [V9.2.0]    => #12 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\functionNisa.php (11) -> include()
+2022-05-23 09:38:58.736 ***** ERROR ***** [V9.2.0]    => #13 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (317) -> include()
+2022-05-23 09:38:58.736 ***** ERROR ***** [V9.2.0]    => #14 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-23 09:39:07.356 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-23 09:39:10.850 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-23 09:39:10.851 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php' at line (113)
+2022-05-23 09:39:10.851 ***** ERROR ***** [V9.2.0] cause = Client error: `POST http://nisa.nisa.10.20.2.179.nip.io/login_check` resulted in a `404 Not Found` response:
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</c (truncated...)
+
+2022-05-23 09:39:10.851 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\guzzle\src\Middleware.php (69) -> create()
+2022-05-23 09:39:10.851 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (204) -> GuzzleHttp\{closure}()
+2022-05-23 09:39:10.852 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (153) -> callHandler()
+2022-05-23 09:39:10.852 ***** ERROR ***** [V9.2.0]    => #3 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\TaskQueue.php (48) -> GuzzleHttp\Promise\{closure}()
+2022-05-23 09:39:10.852 ***** ERROR ***** [V9.2.0]    => #4 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (248) -> run()
+2022-05-23 09:39:10.852 ***** ERROR ***** [V9.2.0]    => #5 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (224) -> invokeWaitFn()
+2022-05-23 09:39:10.852 ***** ERROR ***** [V9.2.0]    => #6 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (269) -> waitIfPending()
+2022-05-23 09:39:10.852 ***** ERROR ***** [V9.2.0]    => #7 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (226) -> invokeWaitList()
+2022-05-23 09:39:10.852 ***** ERROR ***** [V9.2.0]    => #8 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (62) -> waitIfPending()
+2022-05-23 09:39:10.852 ***** ERROR ***** [V9.2.0]    => #9 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\guzzle\src\Client.php (187) -> wait()
+2022-05-23 09:39:10.853 ***** ERROR ***** [V9.2.0]    => #10 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php (14) -> request()
+2022-05-23 09:39:10.853 ***** ERROR ***** [V9.2.0]    => #11 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\functionNisaa.php (31) -> authNisa()
+2022-05-23 09:39:10.853 ***** ERROR ***** [V9.2.0]    => #12 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\functionNisa.php (11) -> include()
+2022-05-23 09:39:10.853 ***** ERROR ***** [V9.2.0]    => #13 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (317) -> include()
+2022-05-23 09:39:10.853 ***** ERROR ***** [V9.2.0]    => #14 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-23 09:39:53.819 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-23 09:39:53.820 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php' at line (113)
+2022-05-23 09:39:53.820 ***** ERROR ***** [V9.2.0] cause = Client error: `POST http://nisa.nisa.10.20.2.179.nip.io/login_check` resulted in a `404 Not Found` response:
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</c (truncated...)
+
+2022-05-23 09:39:53.821 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\guzzle\src\Middleware.php (69) -> create()
+2022-05-23 09:39:53.821 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (204) -> GuzzleHttp\{closure}()
+2022-05-23 09:39:53.821 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (153) -> callHandler()
+2022-05-23 09:39:53.821 ***** ERROR ***** [V9.2.0]    => #3 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\TaskQueue.php (48) -> GuzzleHttp\Promise\{closure}()
+2022-05-23 09:39:53.821 ***** ERROR ***** [V9.2.0]    => #4 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (248) -> run()
+2022-05-23 09:39:53.821 ***** ERROR ***** [V9.2.0]    => #5 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (224) -> invokeWaitFn()
+2022-05-23 09:39:53.821 ***** ERROR ***** [V9.2.0]    => #6 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (269) -> waitIfPending()
+2022-05-23 09:39:53.821 ***** ERROR ***** [V9.2.0]    => #7 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (226) -> invokeWaitList()
+2022-05-23 09:39:53.822 ***** ERROR ***** [V9.2.0]    => #8 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\promises\src\Promise.php (62) -> waitIfPending()
+2022-05-23 09:39:53.822 ***** ERROR ***** [V9.2.0]    => #9 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\vendor\guzzlehttp\guzzle\src\Client.php (187) -> wait()
+2022-05-23 09:39:53.822 ***** ERROR ***** [V9.2.0]    => #10 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php (14) -> request()
+2022-05-23 09:39:53.822 ***** ERROR ***** [V9.2.0]    => #11 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\functionNisaa.php (31) -> authNisa()
+2022-05-23 09:39:53.822 ***** ERROR ***** [V9.2.0]    => #12 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\functionNisa.php (11) -> include()
+2022-05-23 09:39:53.822 ***** ERROR ***** [V9.2.0]    => #13 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (317) -> include()
+2022-05-23 09:39:53.822 ***** ERROR ***** [V9.2.0]    => #14 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-23 09:40:35.411 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-23 09:40:35.412 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\functionNisaa.php' at line (12)
+2022-05-23 09:40:35.412 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected '<', expecting end of file
+2022-05-23 09:40:35.413 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (317) -> include()
+2022-05-23 09:40:35.413 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-23 11:38:27.594 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 11:38:27.595 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php' at line (317)
+2022-05-23 11:38:27.596 ***** ERROR ***** [V9.2.0] cause = include(functioNisa.php): failed to open stream: No such file or directory
+2022-05-23 11:44:39.178 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 11:44:39.180 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\objectDetail.php' at line (73)
+2022-05-23 11:44:39.180 ***** ERROR ***** [V9.2.0] cause = Undefined index: objectClass
+2022-05-23 13:58:11.134 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-23 14:20:28.259 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-23 14:20:53.731 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-23 14:21:35.797 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-23 14:24:59.717 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-23 14:37:50.405 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-23 14:40:25.789 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-23 15:24:43.779 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-23 15:24:43.779 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (24)
+2022-05-23 15:24:43.780 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected '<', expecting end of file
+2022-05-23 15:24:43.780 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-23 15:24:57.992 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:24:57.993 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (6)
+2022-05-23 15:24:57.999 ***** ERROR ***** [V9.2.0] cause = require_once(vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-23 15:25:06.732 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:25:06.733 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (6)
+2022-05-23 15:25:06.733 ***** ERROR ***** [V9.2.0] cause = require_once(vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-23 15:25:21.975 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:25:21.976 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (3)
+2022-05-23 15:25:21.977 ***** ERROR ***** [V9.2.0] cause = require_once(vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-23 15:25:31.541 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:25:31.542 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (3)
+2022-05-23 15:25:31.543 ***** ERROR ***** [V9.2.0] cause = require_once(vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-23 15:25:53.601 ***** ERROR ***** [V9.2.0] Impossible to load class GuzzleHttp\Client<br/>  => Not found in ../model/custom/GuzzleHttp\Client.php <br/>  => Not found in ../model/GuzzleHttp\Client.php <br/>  => Not found in ../model/persistence/GuzzleHttp\Client.php <br/>
+2022-05-23 15:25:53.601 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-23 15:25:53.602 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (5)
+2022-05-23 15:25:53.602 ***** ERROR ***** [V9.2.0] cause = Class 'GuzzleHttp\Client' not found
+2022-05-23 15:25:53.602 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (316) -> include()
+2022-05-23 15:25:53.602 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-23 15:36:06.598 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-23 15:36:06.603 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (82)
+2022-05-23 15:36:06.604 ***** ERROR ***** [V9.2.0] cause = Call to undefined function add()
+2022-05-23 15:36:06.605 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (316) -> include()
+2022-05-23 15:36:06.605 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-23 15:54:50.124 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:54:50.125 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (40)
+2022-05-23 15:54:50.125 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:55:07.558 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:55:07.559 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (40)
+2022-05-23 15:55:07.560 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:55:27.972 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:55:27.973 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (40)
+2022-05-23 15:55:27.974 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:55:35.229 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:55:35.229 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (40)
+2022-05-23 15:55:35.230 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:56:07.775 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:56:07.776 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (40)
+2022-05-23 15:56:07.777 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:56:46.868 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:56:46.869 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (32)
+2022-05-23 15:56:46.869 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:57:06.161 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:57:06.162 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (32)
+2022-05-23 15:57:06.163 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:57:22.548 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-23 15:57:30.889 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:57:30.890 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (32)
+2022-05-23 15:57:30.891 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:57:43.289 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:57:43.290 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (32)
+2022-05-23 15:57:43.291 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:57:49.915 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-23 15:57:49.918 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (65)
+2022-05-23 15:57:49.918 ***** ERROR ***** [V9.2.0] cause = Call to undefined function add()
+2022-05-23 15:57:49.918 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (316) -> include()
+2022-05-23 15:57:49.918 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-23 15:58:08.139 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-23 15:58:08.140 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (65)
+2022-05-23 15:58:08.141 ***** ERROR ***** [V9.2.0] cause = Call to undefined function add()
+2022-05-23 15:58:08.141 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (316) -> include()
+2022-05-23 15:58:08.141 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-23 15:58:23.098 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:58:23.098 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (32)
+2022-05-23 15:58:23.099 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:58:28.263 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-23 15:58:28.263 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (5)
+2022-05-23 15:58:28.264 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected 'function' (T_FUNCTION)
+2022-05-23 15:58:28.265 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-23 15:58:34.220 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:58:34.221 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (32)
+2022-05-23 15:58:34.221 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:58:50.769 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:58:50.770 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (32)
+2022-05-23 15:58:50.771 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 15:59:05.449 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-23 15:59:05.450 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\authentification.php' at line (32)
+2022-05-23 15:59:05.450 ***** ERROR ***** [V9.2.0] cause = Undefined index: x
+2022-05-23 16:00:44.556 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-23 16:36:46.058 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-23 16:48:53.803 ===== TRACE ===== NEW CONNECTED USER 'guest'

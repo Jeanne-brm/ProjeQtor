@@ -119,6 +119,8 @@ $background=(isNewGui())?'#'.$firstColor.' !important':' #C3C3EB';
   <!-- ELIOTT - LEAVE SYSTEM -->
   <script type="text/javascript" src="js/projeqtorHR.js?version=<?php echo $version.'.'.$build;?>" ></script>
 <!-- ELIOTT - LEAVE SYSTEM -->
+<!-- ajout fonctions NISA-->
+<script type="text/javascript" src="js/functionNisa.js?version=<?php echo $version.'.'.$build;?>" ></script>
    
  <script type="text/javascript" src="../external/promise/es6-promise.min.js"></script>
  <script type="text/javascript" src="../external/promise/es6-promise.auto.min.js"></script>

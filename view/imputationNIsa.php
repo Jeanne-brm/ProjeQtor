@@ -1,21 +1,12 @@
 <?php
 require_once "../tool/projeqtor.php";
-function loginNisa() {
-   $login= dojo.byId("login").value;
-   echo $login;
-}
+require_once "../tool/formatter.php";
 
-function loginNisa1(str $login) {
-    echo $login;
- 
-}
 
-function bonjour(){
-    echo 'Bonjour à tous <br>';
-}
 ?>
+<script type="text/javascript" src="js/functionNisa.js?version=<?php echo $version.'.'.$build;?>" ></script>
 
-
+<script type="text/javascript" src="../external/dojo/dojo.js?version=<?php echo $version.'.'.$build;?>"></script>
 
 
 <div data-dojo-type="dijit/form/DropDownButton" iconClass="iconNisa iconSize22 roundedIconButton imageColorNewGui">
@@ -58,30 +49,56 @@ function bonjour(){
         </td>
         <tr>
         <td style="background:transparent !important;">&nbsp;</td>
-        <td style="text-align:center" >
-            <button tabindex="3" id="loginButton"  dojoType="dijit.form.Button" type="submit" class="largeTextButton" showlabel="true" >
-            <?php echo i18n('loginLib');?>
-            <script type="dojo/connect" event="onClick" args="evt">
-                getSessionUser();
-                bonjour();
-                console.log('you pressed the button');
-                alert(dojo.byId("login").value);
-                loginNisa();
-                loginNisa1(dojo.byId("login").value);
-                
-            </script>
-            </button>
 
-            <button id="foo" dojoType="dijit.form.Button" onclick="foo">click me
-            <script type="dojo/method" event="onClick" args="evt">
-                alert("Button fired onClick");
-            </script>
-            </button>
+    
+
+        <td style="text-align:center" >
+            
+           
+
+           
+
             
 
-            <button data-dojo-type="dijit/form/Button" id="T1465" data-dojo-props='onClick:function(){console.log($login); }, iconClass:"plusIcon", value:"Create"'>
-                Create
+            <button id="add">bouton php</button>
+            <div id="result">ICI</div>
+            <script>
+
+                let btn = document.getElementById("add");
+                let loginNisa=dojo.byId("login").value;
+                let passNisa=dojo.byId("password").value;
+
+
+                btn.addEventListener("click", function(){
+                fetch("http://localhost/jeanne/ProjeQtor/view/test/test.php", {
+                    method: "POST",
+                    headers: {
+                    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+                    },
+                    body:`loginNisa=${loginNisa}&passNisa=${passNisa}`,
+                })
+                .then((response) => response.text())
+                .then((res) => (document.getElementById("result").innerHTML = res));
+                console.log(dojo.byId("login").value);
+                })
+
+                console.log('admin_nisa');
+
+                
+                
+            </script>
+
+
+            <button data-dojo-type="dijit/form/Button" data-dojo-id="myToggleButton" onClick="oui(dojo.byId('login').value, dojo.byId('password').value);" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconCut'" type="button">
+                bouton dojo
             </button>
+
+            
+
+
+
+            
+
         </td>
         <td></td>
         </tr>

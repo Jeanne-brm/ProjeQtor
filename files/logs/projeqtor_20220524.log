@@ -1,0 +1,19 @@
+2022-05-24 10:04:57.864 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-24 10:15:27.664 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-24 10:15:27.665 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (4)
+2022-05-24 10:15:27.670 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant dojo - assumed 'dojo' (this will throw an Error in a future version of PHP)
+2022-05-24 10:15:52.766 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-24 10:15:52.767 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (4)
+2022-05-24 10:15:52.767 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant dojo - assumed 'dojo' (this will throw an Error in a future version of PHP)
+2022-05-24 10:16:11.016 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-24 10:16:11.017 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (4)
+2022-05-24 10:16:11.018 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant dojo - assumed 'dojo' (this will throw an Error in a future version of PHP)
+2022-05-24 10:23:03.492 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-24 10:23:03.493 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (4)
+2022-05-24 10:23:03.493 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant dojo - assumed 'dojo' (this will throw an Error in a future version of PHP)
+2022-05-24 10:24:27.383 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-24 10:24:27.384 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (102)
+2022-05-24 10:24:27.385 ***** ERROR ***** [V9.2.0] cause = Undefined variable: currentDay
+2022-05-24 11:15:00.051 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-24 11:16:27.365 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-24 11:43:53.823 ===== TRACE ===== NEW CONNECTED USER 'guest'

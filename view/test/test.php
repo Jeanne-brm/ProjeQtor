@@ -1,28 +1,19 @@
 <?php
-require_once "vendor/autoload.php";
-  
+require_once "../../model/custom/vendor/autoload.php";
 use GuzzleHttp\Client;
-  
-$client = new Client([
+$client=new Client([
     // Base URI is used with relative requests
     'base_uri' => 'http://nisa.nisa.10.20.2.179.nip.io',
     'cookies'=>true,
 ]);
-  
-function authNisa($loginNisa, $passNisa, $client){
-  $response = $client->request('POST', '/login_check', [
-      'form_params' => [
-          '_username' => $loginNisa,
-          '_password' => $passNisa
-      ]
-  ]);
-  return $response;
-}
+
+$passNisa=$_POST['passNisa'];
+$loginNisa=$_POST['loginNisa'];
 
 
-$response11 = authNisa('admin_nisa','Je suis 1 mot de passe.',$client);
-$body= $response11 ->getBody();
-//echo $body;
+echo $loginNisa;
+echo $passNisa;
+authNisa($loginNisa, $passNisa, $client);
 
 $response1 = $client->request('GET', '/api/projectsattributable');
 
@@ -64,3 +55,22 @@ $response = $client->request('POST', '/api/users/workloads/create', [
 
 print_r($requestBody);
 
+function hey(){
+  echo 'hi';
+}
+
+function authNisa($loginNisa, $passNisa, $client){
+    $response = $client->request('POST', '/login_check', [
+        'form_params' => [
+            '_username' => $loginNisa,
+            '_password' => $passNisa
+        ]
+    ]);
+
+    $body= $response ->getBody();
+    echo $body;
+    echo 'oui';
+}
+
+
+?>

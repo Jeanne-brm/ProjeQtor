@@ -21,4 +21,11 @@ function authNisa($loginNisa, $passNisa, $client){
 //$response1 = authNisa('admin_nisa','Je suis 1 mot de passe.',$client);
 //$body= $response1 ->getBody();
 //echo $body;
-echo PHP_VERSION_ID;
+//echo PHP_VERSION_ID;
+
+function hey(){
+  echo 'hi';
+}
+
+
+
