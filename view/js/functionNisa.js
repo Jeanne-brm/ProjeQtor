@@ -18,7 +18,7 @@ function bonjour() {
 
 
 function oui(loginNisa, passNisa){
-    fetch("http://localhost/jeanne/ProjeQtor/view/test/test.php", {
+    fetch("http://localhost/jeanne/ProjeQtor/model/custom/functionNisa.php", {
         method: "POST",
         headers: {
         "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",

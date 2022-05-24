@@ -4,9 +4,8 @@ require_once "../tool/formatter.php";
 
 
 ?>
-<script type="text/javascript" src="js/functionNisa.js?version=<?php echo $version.'.'.$build;?>" ></script>
 
-<script type="text/javascript" src="../external/dojo/dojo.js?version=<?php echo $version.'.'.$build;?>"></script>
+<script type="text/javascript" src="../../external/dojo/dojo.js?version=<?php echo $version.'.'.$build;?>"></script>
 
 
 <div data-dojo-type="dijit/form/DropDownButton" iconClass="iconNisa iconSize22 roundedIconButton imageColorNewGui">
@@ -70,7 +69,7 @@ require_once "../tool/formatter.php";
 
 
                 btn.addEventListener("click", function(){
-                fetch("http://localhost/jeanne/ProjeQtor/view/test/test.php", {
+                fetch("http://localhost/jeanne/ProjeQtor/model/custom/functionNisa.php", {
                     method: "POST",
                     headers: {
                     "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
