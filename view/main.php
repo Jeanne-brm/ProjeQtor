@@ -35,6 +35,7 @@
  */
 $mobile=false;
 require_once "../tool/projeqtor.php";
+
 if (isset($locked) and $locked) {
   include_once "../view/locked.php";
   exit;

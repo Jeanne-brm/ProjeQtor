@@ -1,0 +1,106 @@
+2022-05-25 09:51:34.460 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-05-25 10:57:20.025 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 10:57:29.051 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-25 10:57:29.081 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 10:57:29.083 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-05-25 10:57:29.084 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-25 10:57:36.106 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 10:57:36.111 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-05-25 10:57:36.114 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-25 10:57:39.527 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 10:57:39.533 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-05-25 10:57:39.534 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-25 10:57:49.062 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 10:57:49.063 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-05-25 10:57:49.064 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-25 10:57:56.404 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 10:57:56.406 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-05-25 10:57:56.407 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-25 10:58:01.406 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 10:58:01.406 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-05-25 10:58:01.407 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-25 10:58:13.976 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-25 10:58:14.523 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 10:58:14.525 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-05-25 10:58:14.525 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-25 10:59:17.118 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 10:59:26.415 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-25 11:05:46.514 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:05:46.516 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (67)
+2022-05-25 11:05:46.516 ***** ERROR ***** [V9.2.0] cause = Undefined index: name
+2022-05-25 11:06:00.199 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:06:00.200 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (67)
+2022-05-25 11:06:00.205 ***** ERROR ***** [V9.2.0] cause = Undefined index: name
+2022-05-25 11:06:24.592 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:06:24.593 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (116)
+2022-05-25 11:06:24.593 ***** ERROR ***** [V9.2.0] cause = Undefined index: name
+2022-05-25 11:06:46.614 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:06:46.615 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (10)
+2022-05-25 11:06:46.616 ***** ERROR ***** [V9.2.0] cause = Undefined index: name
+2022-05-25 11:07:06.011 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:07:06.012 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (10)
+2022-05-25 11:07:06.015 ***** ERROR ***** [V9.2.0] cause = Undefined index: name
+2022-05-25 11:07:11.622 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:07:11.623 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (10)
+2022-05-25 11:07:11.624 ***** ERROR ***** [V9.2.0] cause = Undefined index: name
+2022-05-25 11:07:33.894 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 11:07:36.153 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-25 11:08:03.088 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 11:08:20.852 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-25 11:08:33.848 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 11:10:00.979 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:10:00.980 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (11)
+2022-05-25 11:10:00.981 ***** ERROR ***** [V9.2.0] cause = Undefined index: name
+2022-05-25 11:10:10.651 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:10:10.652 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (9)
+2022-05-25 11:10:10.652 ***** ERROR ***** [V9.2.0] cause = Undefined index: name
+2022-05-25 11:10:49.943 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:10:49.943 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (126)
+2022-05-25 11:10:49.944 ***** ERROR ***** [V9.2.0] cause = Undefined index: name
+2022-05-25 11:11:58.635 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:11:58.636 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (115)
+2022-05-25 11:11:58.637 ***** ERROR ***** [V9.2.0] cause = Undefined variable: name
+2022-05-25 11:12:28.898 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:12:28.898 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (115)
+2022-05-25 11:12:28.899 ***** ERROR ***** [V9.2.0] cause = Undefined variable: name
+2022-05-25 11:12:39.887 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:12:39.889 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (115)
+2022-05-25 11:12:39.890 ***** ERROR ***** [V9.2.0] cause = Undefined variable: name
+2022-05-25 11:13:31.653 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 11:13:48.055 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-25 11:13:59.621 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 11:18:54.378 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-25 11:19:11.541 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 11:19:27.253 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-25 11:19:39.509 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 11:19:51.989 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-25 11:20:04.994 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 11:20:09.109 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-25 11:27:09.482 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-25 11:27:09.483 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (4)
+2022-05-25 11:27:09.483 ***** ERROR ***** [V9.2.0] cause = Too few arguments to function display(), 0 passed in E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php on line 112 and exactly 1 expected
+2022-05-25 11:27:09.484 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php (112) -> display()
+2022-05-25 11:27:09.484 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (316) -> include()
+2022-05-25 11:27:09.484 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-25 11:27:32.287 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-25 11:27:32.288 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (7)
+2022-05-25 11:27:32.289 ***** ERROR ***** [V9.2.0] cause = Too few arguments to function display(), 0 passed in E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php on line 115 and exactly 1 expected
+2022-05-25 11:27:32.290 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php (115) -> display()
+2022-05-25 11:27:32.290 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (316) -> include()
+2022-05-25 11:27:32.290 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-25 11:32:04.433 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 11:32:08.552 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-25 11:32:08.592 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:32:08.593 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-05-25 11:32:08.593 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-25 11:32:43.636 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:32:43.636 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-05-25 11:32:43.637 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-25 11:32:47.567 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:32:47.568 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-05-25 11:32:47.569 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-05-25 11:33:20.394 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 11:33:22.286 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-25 11:39:28.111 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-25 11:39:28.112 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (123)
+2022-05-25 11:39:28.113 ***** ERROR ***** [V9.2.0] cause = Undefined variable: varYouMadePreviouslyInProcessing

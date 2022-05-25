@@ -7,14 +7,12 @@ $client=new Client([
     'cookies'=>true,
 ]);
 
-$passNisa=$_POST['passNisa'];
-$loginNisa=$_POST['loginNisa'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $loginNisa = $_POST["loginNisa"];
+  $passNisa =$_POST["passNisa"];
+}
 
-
-echo $loginNisa;
-echo $passNisa;
 authNisa($loginNisa, $passNisa, $client);
-
 $response1 = $client->request('GET', '/api/projectsattributable');
 
 $projets = $response1 -> getBody();
@@ -55,9 +53,10 @@ $response = $client->request('POST', '/api/users/workloads/create', [
 
 print_r($requestBody);
 
-function hey(){
-  echo 'hi';
-}
+
+
+
+
 
 function authNisa($loginNisa, $passNisa, $client){
     $response = $client->request('POST', '/login_check', [
@@ -71,6 +70,4 @@ function authNisa($loginNisa, $passNisa, $client){
     echo $body;
     echo 'oui';
 }
-
-  
 ?>

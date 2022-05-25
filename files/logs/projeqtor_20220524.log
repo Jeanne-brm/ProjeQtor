@@ -24,3 +24,24 @@
 2022-05-24 14:44:50.259 ===== TRACE ===== NEW CONNECTED USER 'guest'
 2022-05-24 14:45:45.593 ===== TRACE ===== DISCONNECTED USER 'guest'
 2022-05-24 14:45:47.121 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-24 15:40:01.063 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-05-24 15:40:01.066 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-05-24 15:40:01.068 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/ImputationValidation.php
+2022-05-24 15:40:01.068 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-05-24 15:40:01.069 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-05-24 15:40:01.069 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationValidation.php
+2022-05-24 15:40:01.069 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #2 - guest
+2022-05-24 15:40:01.070 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/ImputationValidation.php
+2022-05-24 15:40:02.784 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-24 15:40:35.892 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-24 15:40:42.124 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-05-24 15:40:42.125 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-05-24 15:40:42.125 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/imputationLine.php
+2022-05-24 15:40:42.125 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-05-24 15:40:42.126 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-05-24 15:40:42.126 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLine.php
+2022-05-24 15:40:42.126 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #2 - guest
+2022-05-24 15:40:42.126 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/imputationLine.php
+2022-05-24 15:40:42.693 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-24 15:40:53.854 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-24 15:41:18.847 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)

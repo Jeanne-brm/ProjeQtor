@@ -1,12 +1,9 @@
 <?php
 require_once "../tool/projeqtor.php";
 require_once "../tool/formatter.php";
-
-
 ?>
 
 <script type="text/javascript" src="../../external/dojo/dojo.js?version=<?php echo $version.'.'.$build;?>"></script>
-
 
 <div data-dojo-type="dijit/form/DropDownButton" iconClass="iconNisa iconSize22 roundedIconButton imageColorNewGui">
     <span>Login</span><!-- Text for the button -->
@@ -52,60 +49,29 @@ require_once "../tool/formatter.php";
     
 
         <td style="text-align:center" >
-            
-           
-
-           
-
-            
-
-            <button id="add">bouton php</button>
-            <div id="result">ICI</div>
-            <script>
-
-                let btn = document.getElementById("add");
-                let loginNisa=dojo.byId("login").value;
-                let passNisa=dojo.byId("password").value;
-
-
-                btn.addEventListener("click", function(){
-                fetch("http://localhost/jeanne/ProjeQtor/model/custom/functionNisa.php", {
-                    method: "POST",
-                    headers: {
-                    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-                    },
-                    body:`loginNisa=${loginNisa}&passNisa=${passNisa}`,
-                })
-                .then((response) => response.text())
-                .then((res) => (document.getElementById("result").innerHTML = res));
-                console.log(dojo.byId("login").value);
-                })
-
-                console.log('admin_nisa');
-
-                
-                
-            </script>
-
-
-            <button data-dojo-type="dijit/form/Button" data-dojo-id="myToggleButton" onClick="oui(dojo.byId('login').value, dojo.byId('password').value);" data-dojo-props="iconClass:'dijitEditorIcon dijitEditorIconCut'" type="button">
+            <div id="result"></div>
+            <button data-dojo-type="dijit/form/Button" data-dojo-id="myToggleButton" onClick="oui(dojo.byId('login').value, dojo.byId('password').value);" iconClass="iconNisa iconSize22 roundedIconButton imageColorNewGui" type="button">
                 bouton dojo
             </button>
 
-            
-
-
-
-            
+            <iframe name="votar" style="display:none"></iframe>
+            <form action="../model/custom/test.php" method="post" target="votar">
+                
+                Name: <input type="text" name="loginNisa">
+                <br><br>
+                Password: <input type="password" name="passNisa">
+                <br><br>
+                <input type="submit" value="bonton php">
+            </form>
 
         </td>
         <td></td>
         </tr>
-			              
-	
 	</table>
     </div>
 </div>
+
+
 
 
 
