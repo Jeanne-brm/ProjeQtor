@@ -1,0 +1,4 @@
+2022-06-03 09:12:46.993 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-06-03 09:12:55.158 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-03 09:54:57.667 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-06-03 09:55:06.036 ===== TRACE ===== NEW CONNECTED USER 'ilou'

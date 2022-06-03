@@ -29,3 +29,4 @@ function oui(loginNisa, passNisa){
     .then((res) => (document.getElementById("result").innerHTML = res));
     console.log(loginNisa);
 }
+

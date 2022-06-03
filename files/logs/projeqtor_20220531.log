@@ -1,0 +1,128 @@
+2022-05-31 11:03:52.119 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 11:03:52.121 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (736)
+2022-05-31 11:03:52.124 ***** ERROR ***** [V9.2.0] cause = Undefined variable: line
+2022-05-31 11:04:21.798 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 11:04:21.799 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (736)
+2022-05-31 11:04:21.799 ***** ERROR ***** [V9.2.0] cause = Undefined variable: line
+2022-05-31 11:05:04.585 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 11:05:04.586 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (734)
+2022-05-31 11:05:04.590 ***** ERROR ***** [V9.2.0] cause = Undefined variable: line
+2022-05-31 11:20:35.244 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 11:20:35.245 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (735)
+2022-05-31 11:20:35.245 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-05-31 11:20:45.211 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 11:20:45.211 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (735)
+2022-05-31 11:20:45.212 ***** ERROR ***** [V9.2.0] cause = Object of class ImputationLine could not be converted to string
+2022-05-31 11:21:47.092 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 11:21:47.093 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1420)
+2022-05-31 11:21:47.094 ***** ERROR ***** [V9.2.0] cause = Object of class ImputationLine could not be converted to string
+2022-05-31 11:21:57.430 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 11:21:57.431 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1411)
+2022-05-31 11:21:57.432 ***** ERROR ***** [V9.2.0] cause = Object of class ImputationLine could not be converted to string
+2022-05-31 11:59:35.404 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 11:59:35.405 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1334)
+2022-05-31 11:59:35.406 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-05-31 14:13:16.092 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 14:13:16.094 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1335)
+2022-05-31 14:13:16.094 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant console - assumed 'console' (this will throw an Error in a future version of PHP)
+2022-05-31 14:27:44.871 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 14:27:44.872 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1335)
+2022-05-31 14:27:44.872 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected '$jsonTab' (T_VARIABLE), expecting ',' or ';'
+2022-05-31 14:27:44.873 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> spl_autoload_call()
+2022-05-31 14:27:44.874 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 14:32:44.618 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 14:32:44.619 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1336)
+2022-05-31 14:32:44.620 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-05-31 14:33:55.728 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-31 14:39:02.863 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-31 16:31:00.949 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2022-05-31 16:40:18.629 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 16:40:18.630 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1342)
+2022-05-31 16:40:18.634 ***** ERROR ***** [V9.2.0] cause = Call to undefined function console_log()
+2022-05-31 16:40:18.635 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 16:40:18.636 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 16:40:31.935 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 16:40:31.936 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1345)
+2022-05-31 16:40:31.937 ***** ERROR ***** [V9.2.0] cause = Call to undefined function console_log()
+2022-05-31 16:40:31.937 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 16:40:31.937 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 16:40:42.911 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 16:40:42.911 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1345)
+2022-05-31 16:40:42.912 ***** ERROR ***** [V9.2.0] cause = Call to undefined function console_log()
+2022-05-31 16:40:42.912 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 16:40:42.912 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 16:42:25.603 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 16:42:25.604 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1348)
+2022-05-31 16:42:25.604 ***** ERROR ***** [V9.2.0] cause = Call to undefined function console_log()
+2022-05-31 16:42:25.604 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 16:42:25.605 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 16:42:42.578 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 16:42:42.578 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1348)
+2022-05-31 16:42:42.579 ***** ERROR ***** [V9.2.0] cause = Call to undefined function console_log()
+2022-05-31 16:42:42.579 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 16:42:42.579 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 16:43:49.373 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 16:43:49.374 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1349)
+2022-05-31 16:43:49.375 ***** ERROR ***** [V9.2.0] cause = Call to undefined function console_log()
+2022-05-31 16:43:49.376 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 16:43:49.377 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 16:44:38.467 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-31 16:44:38.751 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-31 16:44:49.445 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-05-31 16:44:49.445 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-05-31 16:44:49.446 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/ImputationLine.php
+2022-05-31 16:44:49.447 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-05-31 16:44:49.447 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-05-31 16:44:49.447 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLine.php
+2022-05-31 16:44:49.448 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #2 - guest
+2022-05-31 16:44:49.448 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/ImputationLine.php
+2022-05-31 16:44:49.954 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-31 16:44:55.121 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-31 16:45:48.537 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-31 16:56:38.359 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 16:56:38.360 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1339)
+2022-05-31 16:56:38.361 ***** ERROR ***** [V9.2.0] cause = Call to undefined function console_log()
+2022-05-31 16:56:38.362 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 16:56:38.362 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 16:58:08.334 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-31 16:58:51.993 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-31 17:00:50.221 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 17:00:50.222 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1337)
+2022-05-31 17:00:50.222 ***** ERROR ***** [V9.2.0] cause = Undefined variable: output
+2022-05-31 17:03:55.534 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 17:03:55.535 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (43)
+2022-05-31 17:03:55.535 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected 'class' (T_CLASS)
+2022-05-31 17:03:55.535 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> spl_autoload_call()
+2022-05-31 17:03:55.536 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 17:05:36.775 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 17:05:36.776 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1343)
+2022-05-31 17:05:36.777 ***** ERROR ***** [V9.2.0] cause = Call to undefined function consoleTraceLog()
+2022-05-31 17:05:36.777 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 17:05:36.778 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 17:06:39.958 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 17:06:39.959 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1339)
+2022-05-31 17:06:39.961 ***** ERROR ***** [V9.2.0] cause = Call to undefined function consoleTraceLog()
+2022-05-31 17:06:39.961 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 17:06:39.962 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 17:07:27.630 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 17:07:27.631 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1340)
+2022-05-31 17:07:27.631 ***** ERROR ***** [V9.2.0] cause = Call to undefined function consoleTraceLog()
+2022-05-31 17:07:27.632 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 17:07:27.633 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 17:08:03.281 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 17:08:03.282 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1341)
+2022-05-31 17:08:03.283 ***** ERROR ***** [V9.2.0] cause = Call to undefined function consoleTraceLog()
+2022-05-31 17:08:03.284 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 17:08:03.284 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 17:08:20.573 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-31 17:08:33.803 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-05-31 17:08:33.804 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1341)
+2022-05-31 17:08:33.804 ***** ERROR ***** [V9.2.0] cause = Call to undefined function consoleTraceLog()
+2022-05-31 17:08:33.805 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-05-31 17:08:33.806 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-05-31 17:44:21.601 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 17:44:21.602 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1337)
+2022-05-31 17:44:21.602 ***** ERROR ***** [V9.2.0] cause = Undefined variable: critWhere
+2022-05-31 17:48:01.712 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-31 17:48:01.713 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1339)
+2022-05-31 17:48:01.714 ***** ERROR ***** [V9.2.0] cause = Undefined variable: critWhere

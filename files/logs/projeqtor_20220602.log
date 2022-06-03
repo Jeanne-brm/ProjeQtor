@@ -1,0 +1,69 @@
+2022-06-02 11:01:23.547 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 11:01:23.550 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1502)
+2022-06-02 11:01:23.553 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 8
+2022-06-02 11:01:59.382 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 11:01:59.383 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1500)
+2022-06-02 11:01:59.383 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-02 11:31:46.090 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 11:31:46.092 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1503)
+2022-06-02 11:31:46.097 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 8
+2022-06-02 11:32:35.391 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 11:32:35.393 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1503)
+2022-06-02 11:32:35.394 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 8
+2022-06-02 11:33:31.288 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 11:33:31.290 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1359)
+2022-06-02 11:33:31.291 ***** ERROR ***** [V9.2.0] cause = Undefined variable: beep
+2022-06-02 11:34:05.355 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 11:34:05.356 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1502)
+2022-06-02 11:34:05.358 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 2072
+2022-06-02 11:34:38.270 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 11:34:38.271 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1502)
+2022-06-02 11:34:38.272 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1496
+2022-06-02 11:34:54.038 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 11:34:54.039 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1501)
+2022-06-02 11:34:54.040 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1496
+2022-06-02 11:35:07.155 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 11:35:07.157 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1501)
+2022-06-02 11:35:07.157 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 2072
+2022-06-02 16:06:30.566 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 16:06:30.568 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1359)
+2022-06-02 16:06:30.569 ***** ERROR ***** [V9.2.0] cause = Non-static method ImputationLine::recupImputations() should not be called statically
+2022-06-02 16:07:04.638 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-02 16:07:04.639 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1359)
+2022-06-02 16:07:04.639 ***** ERROR ***** [V9.2.0] cause = Call to undefined function recupImputations()
+2022-06-02 16:07:04.639 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-06-02 16:07:04.639 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-02 16:07:33.554 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 16:07:33.555 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1652)
+2022-06-02 16:07:33.556 ***** ERROR ***** [V9.2.0] cause = Undefined variable: tab
+2022-06-02 16:08:19.908 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 16:08:19.909 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1654)
+2022-06-02 16:08:19.910 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-02 16:08:50.763 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 16:08:50.764 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1655)
+2022-06-02 16:08:50.764 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listLienProject
+2022-06-02 16:15:26.959 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-02 16:15:26.960 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1658)
+2022-06-02 16:15:26.960 ***** ERROR ***** [V9.2.0] cause = Call to undefined method ImputationLine::name()
+2022-06-02 16:15:26.961 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php (1359) -> recupImputations()
+2022-06-02 16:15:26.961 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-06-02 16:15:26.961 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-02 16:22:56.058 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 16:22:56.060 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1659)
+2022-06-02 16:22:56.061 ***** ERROR ***** [V9.2.0] cause = Illegal offset type
+2022-06-02 16:34:08.588 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 16:34:08.590 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1361)
+2022-06-02 16:34:08.591 ***** ERROR ***** [V9.2.0] cause = Undefined variable: print_r
+2022-06-02 16:34:15.891 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 16:34:15.892 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1361)
+2022-06-02 16:34:15.892 ***** ERROR ***** [V9.2.0] cause = Undefined variable: userId
+2022-06-02 16:46:09.387 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-02 16:46:09.389 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1362)
+2022-06-02 16:46:09.389 ***** ERROR ***** [V9.2.0] cause = Undefined property: User::$idResource
+2022-06-02 16:59:14.131 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-06-02 16:59:21.816 ===== TRACE ===== Login error for user 'ilou'
+2022-06-02 16:59:23.478 ===== TRACE ===== Login error for user 'ilou'
+2022-06-02 16:59:25.752 ===== TRACE ===== Login error for user 'ilou'
+2022-06-02 16:59:31.469 ===== TRACE ===== Login error for user 'ilou'
+2022-06-02 16:59:42.639 ===== TRACE ===== Login error for user 'admin'
+2022-06-02 16:59:44.567 ===== TRACE ===== NEW CONNECTED USER 'admin'

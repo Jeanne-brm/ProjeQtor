@@ -39,10 +39,13 @@
  */
 require_once ('_securityCheck.php');
 
+ 
+
 class ImputationLine {
   
   // List of fields that will be exposed in general user interface
   // public $id; // redefine $id to specify its visible place
+  public $liste;
   public $refType;
   public $refId;
   public $idProject;
@@ -1228,6 +1231,7 @@ class ImputationLine {
             $sumWork=0;
             if ($line->refType=='Project') {
               $sumWork=Work::displayImputation(ImputationLine::getAllWorkProjectDay($i, $listLienProject, $tab, $line->refId));
+              //var_dump($sumWork);
               if (!$print) {
                 echo '<div style="display:none" id="sumProject_'.$line->refId.'_'.$i.'">'.$sumWork.'</div>';
                 echo '<input type="text" style="width: 45px; text-align: center;font-weight:bold;" ';
@@ -1324,6 +1328,90 @@ class ImputationLine {
         echo '</tr>';
       }
     }
+    echo '<div>Ici';
+    $tab=ImputationLine::getLines($resourceId, $rangeType, $rangeValue, $showIdle, $showPlanned, $hideDone, $hideNotHandled, $displayOnlyCurrentWeekMeetings);
+    $jsonTab = json_encode($tab);
+
+    //var_dump($scope);
+    
+    $list=array();
+    foreach($tab as $key=>$line){
+      //var_dump($key);
+      //var_dump($line);
+      $list[$line->refId]=new Project($line->refId);
+      if ($line->refType=='Project'){
+        //var_dump($line->name);
+        //print_r($line->name);
+      }
+      //var_dump($line->name);
+      //var_dump($list);
+    }
+    //var_dump($line->name);
+    //var_dump($tab);
+    foreach($tab as $key=>$line){
+      $list[$line->refId]=new Project($line->refId);
+      //var_dump($list);
+      $liste='Nom du projet : '.htmlEncode($line->name).' | Imputation_'.$resourceId.'_'.htmlEncode($line->refType).'_'.$line->refId;
+      //var_dump($liste);
+      
+    }
+
+    $res=ImputationLine::recupImputations($tab,$nbDays,$listLienProject);
+    print_r($res);
+    print_r($user->name); 
+    print_r(SqlList::getNameFromId('Profile', $user->idProfile));
+    
+
+    $listLienProject=array();
+    $listAllProject=array();
+    foreach ($tab as $key=>$line) {
+      if ($line->refType=='Project'&&!isset($listAllProject[$line->refId])) {
+        $listAllProject[$line->refId]=new Project($line->refId);
+        $listLienProject[$line->refId]=array();
+        $listLienProject[$line->refId][]=$line->refId;
+        ;
+      }
+    }
+    
+
+    
+    //$listLienProject=ImputationLine::addProjectToListLienProject($listLienProject, $listAllProject);
+    //var_dump($listLienProject);
+
+    //$sumWork=0;
+    //for ($i=1; $i<=$nbDays; $i++) {
+    //$sumWork=Work::displayImputation(ImputationLine::getAllWorkProjectDay($i, $listLienProject, $tab, $line->refId));
+    //var_dump($nbDays);
+    //}
+    //var_dump($line->refId);
+    //$sumWork=Work::displayImputation(ImputationLine::getAllWorkProjectDay($i, $listLienProject, $tab, $line->refId));
+    //var_dump($sumWork);
+   
+    $projPe=new ProjectPlanningElement();
+    //var_dump($projPe);
+    //$name =$projPe->getDatabaseTableName();
+    //var_dump($name);
+    
+    //echo $jsonTab;
+    //var_dump($jsonTab);
+    //var_dump($tab);
+    $user=getSessionUser();
+    $visibleProjectList=$user->getVisibleProjects();
+    //var_dump($visibleProjectList);
+    $userId=$user->id;
+    ///var_dump($user);
+    $idle=false;
+    $showPlannedWork=false; 
+    //ImputationLine::drawLines($userId, $rangeType, $rangeValue, $idle, $showPlannedWork, true, $hideDone, $hideNotHandled, $displayOnlyCurrentWeekMeetings);
+    
+    
+    
+   
+    
+    echo '</div>';
+   
+  
+
     if (!$print) {
       echo '<input type="hidden" id="nbLines" name="nbLines" value="'.$nbLine.'" />';
     }
@@ -1559,6 +1647,20 @@ class ImputationLine {
       }
     }
     return $canValidate;
+  }
+
+  static function recupImputations($tab, $nbDays,$listLienProject){
+    //$imputations=array();
+      foreach($tab as $key=>$line){
+        if ($line->refType=='Project'){
+          for ($i=1; $i<=$nbDays; $i++) {
+            $beep=ImputationLine::getAllWorkProjectDay($i, $listLienProject, $tab, $line->refId);
+            //$sumWork=Work::displayImputation(ImputationLine::getAllWorkProjectDay($i, $listLienProject, $tab, $line->refId));
+            $imputations[$line->name][]=($beep);
+          }  
+        }
+      }
+    return $imputations;
   }
 }
 ?>

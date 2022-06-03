@@ -61,7 +61,7 @@ require_once "../tool/formatter.php";
                 <br><br>
                 Password: <input type="password" name="passNisa">
                 <br><br>
-                <input type="submit" value="bonton php">
+                <input type="submit" value="bouton php">
             </form>
 
         </td>

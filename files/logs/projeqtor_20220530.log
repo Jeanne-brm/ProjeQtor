@@ -1,0 +1,58 @@
+2022-05-30 15:18:46.743 ===== TRACE ===== WARNING - Left work not retrieved from screen
+2022-05-30 15:18:46.745 ===== TRACE =====         - Maybe max_input_vars is too small in php.ini (actual value is 4000)
+2022-05-30 15:18:46.745 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-30 15:18:46.745 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\tool\saveImputation.php' at line (39)
+2022-05-30 15:18:46.745 ***** ERROR ***** [V9.2.0] cause = Error - Maybe max_input_vars is too small in php.ini
+2022-05-30 16:22:04.685 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-05-30 16:22:04.686 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-05-30 16:22:04.687 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/recupImput.php
+2022-05-30 16:22:04.688 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-05-30 16:22:04.689 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-05-30 16:22:04.689 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/recupImput.php
+2022-05-30 16:22:04.690 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #2 - guest
+2022-05-30 16:22:04.693 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/recupImput.php
+2022-05-30 16:22:05.643 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-30 16:22:22.005 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-05-30 16:22:22.007 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-05-30 16:22:22.008 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/recupImput.php
+2022-05-30 16:22:22.008 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-05-30 16:22:22.008 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-05-30 16:22:22.009 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/recupImput.php
+2022-05-30 16:22:22.009 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #2 - guest
+2022-05-30 16:22:22.009 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/recupImput.php
+2022-05-30 16:22:23.495 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-30 16:24:29.782 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-30 16:24:40.683 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-30 16:30:57.347 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-05-30 16:30:57.348 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-05-30 16:30:57.348 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/imputationLine.php
+2022-05-30 16:30:57.349 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-05-30 16:30:57.350 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-05-30 16:30:57.350 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLine.php
+2022-05-30 16:30:57.350 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #2 - guest
+2022-05-30 16:30:57.351 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/imputationLine.php
+2022-05-30 16:30:58.141 ===== TRACE ===== NEW CONNECTED USER 'guest' (using remember me feature)
+2022-05-30 16:56:56.050 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-30 16:56:56.051 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (732)
+2022-05-30 16:56:56.052 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-05-30 16:57:26.103 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-30 16:57:26.104 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (732)
+2022-05-30 16:57:26.105 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-05-30 16:57:52.867 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-30 16:57:52.868 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (732)
+2022-05-30 16:57:52.869 ***** ERROR ***** [V9.2.0] cause = Undefined variable: refId
+2022-05-30 16:58:48.085 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-30 16:58:48.085 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (732)
+2022-05-30 16:58:48.086 ***** ERROR ***** [V9.2.0] cause = Object of class User could not be converted to string
+2022-05-30 16:59:11.304 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-30 16:59:11.305 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (733)
+2022-05-30 16:59:11.306 ***** ERROR ***** [V9.2.0] cause = Object of class User could not be converted to string
+2022-05-30 17:00:37.131 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-30 17:00:37.132 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (734)
+2022-05-30 17:00:37.133 ***** ERROR ***** [V9.2.0] cause = Object of class User could not be converted to string
+2022-05-30 17:02:23.972 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-30 17:02:23.972 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\report\imputation.php' at line (30)
+2022-05-30 17:02:23.973 ***** ERROR ***** [V9.2.0] cause = Undefined index: userId
+2022-05-30 17:02:37.607 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-05-30 17:02:37.608 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\report\imputation.php' at line (30)
+2022-05-30 17:02:37.608 ***** ERROR ***** [V9.2.0] cause = Undefined index: userId

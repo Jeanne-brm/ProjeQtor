@@ -3,7 +3,7 @@ require_once "../../model/custom/vendor/autoload.php";
 use GuzzleHttp\Client;
 $client=new Client([
     // Base URI is used with relative requests
-    'base_uri' => 'http://nisa.nisa.10.20.2.179.nip.io',
+    'base_uri' => 'https://nisa-ids.coexya.eu',
     'cookies'=>true,
 ]);
 

@@ -104,3 +104,19 @@
 2022-05-25 11:39:28.111 ***** ERROR ***** [V9.2.0] ERROR *****
 2022-05-25 11:39:28.112 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (123)
 2022-05-25 11:39:28.113 ***** ERROR ***** [V9.2.0] cause = Undefined variable: varYouMadePreviouslyInProcessing
+2022-05-25 13:27:13.321 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 13:28:32.824 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 13:36:08.859 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 13:37:35.740 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 13:41:33.812 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-25 13:41:54.381 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 13:44:47.206 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-25 13:45:15.483 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-25 13:48:08.749 ===== TRACE ===== Login error for user ''
+2022-05-25 13:48:11.217 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-25 13:48:31.888 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 13:55:41.078 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-25 13:57:07.337 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-25 13:57:48.799 ===== TRACE ===== NEW CONNECTED USER 'guest'
+2022-05-25 13:58:16.266 ===== TRACE ===== DISCONNECTED USER 'guest'
+2022-05-25 13:58:35.417 ===== TRACE ===== NEW CONNECTED USER 'guest'
