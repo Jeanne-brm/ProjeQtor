@@ -1,0 +1,24 @@
+2022-06-09 14:31:26.673 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-09 14:31:26.675 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1415)
+2022-06-09 14:31:26.675 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-09 14:51:52.487 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-09 14:51:52.488 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1429)
+2022-06-09 14:51:52.489 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-06-09 14:52:25.149 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-09 14:52:25.151 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1429)
+2022-06-09 14:52:25.153 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-06-09 14:53:56.269 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-09 14:53:56.270 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1429)
+2022-06-09 14:53:56.270 ***** ERROR ***** [V9.2.0] cause = Illegal offset type
+2022-06-09 14:58:45.317 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-09 14:58:45.318 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1728)
+2022-06-09 14:58:45.319 ***** ERROR ***** [V9.2.0] cause = Undefined variable: name
+2022-06-09 14:59:23.918 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-09 14:59:23.919 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1429)
+2022-06-09 14:59:23.919 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP)
+2022-06-09 15:04:51.632 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-09 15:04:51.634 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1434)
+2022-06-09 15:04:51.634 ***** ERROR ***** [V9.2.0] cause = Undefined variable: projet
+2022-06-09 15:07:32.371 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-09 15:07:32.373 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1432)
+2022-06-09 15:07:32.373 ***** ERROR ***** [V9.2.0] cause = Undefined index: Days

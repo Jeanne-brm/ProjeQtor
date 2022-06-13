@@ -1,0 +1,127 @@
+2022-06-13 09:29:07.736 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 09:29:07.742 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1450)
+2022-06-13 09:29:07.743 ***** ERROR ***** [V9.2.0] cause = Undefined variable: ahh
+2022-06-13 09:31:15.623 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 09:31:15.624 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1450)
+2022-06-13 09:31:15.625 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, integer given
+2022-06-13 09:34:24.062 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 09:34:24.063 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1502)
+2022-06-13 09:34:24.066 ***** ERROR ***** [V9.2.0] cause = Undefined variable: tests1
+2022-06-13 09:40:24.601 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 09:40:24.605 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1483)
+2022-06-13 09:40:24.606 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-13 09:42:38.397 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-13 09:42:38.398 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1490)
+2022-06-13 09:42:38.398 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected '}'
+2022-06-13 09:42:38.399 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> spl_autoload_call()
+2022-06-13 09:42:38.399 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-13 09:43:11.175 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 09:43:11.176 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1489)
+2022-06-13 09:43:11.177 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, string given
+2022-06-13 10:10:38.960 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 10:10:38.961 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1489)
+2022-06-13 10:10:38.962 ***** ERROR ***** [V9.2.0] cause = A non-numeric value encountered
+2022-06-13 10:15:03.880 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 10:15:03.881 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1489)
+2022-06-13 10:15:03.882 ***** ERROR ***** [V9.2.0] cause = Undefined index: workload
+2022-06-13 10:21:04.191 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 10:21:04.192 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1454)
+2022-06-13 10:21:04.193 ***** ERROR ***** [V9.2.0] cause = Undefined index: workloads
+2022-06-13 10:54:32.838 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 10:54:32.839 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1555)
+2022-06-13 10:54:32.840 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-13 10:56:05.732 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 10:56:05.733 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1555)
+2022-06-13 10:56:05.734 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-13 10:57:16.320 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 10:57:16.321 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1556)
+2022-06-13 10:57:16.322 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-13 10:57:48.358 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 10:57:48.359 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1548)
+2022-06-13 10:57:48.360 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-13 11:00:47.812 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 11:00:47.813 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1455)
+2022-06-13 11:00:47.814 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, null given
+2022-06-13 11:01:19.825 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 11:01:19.826 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1455)
+2022-06-13 11:01:19.826 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, null given
+2022-06-13 11:05:36.120 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 11:05:36.121 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1497)
+2022-06-13 11:05:36.122 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, null given
+2022-06-13 11:06:11.428 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 11:06:11.429 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1494)
+2022-06-13 11:06:11.430 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-13 11:06:50.419 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 11:06:50.420 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1492)
+2022-06-13 11:06:50.421 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-13 11:07:01.814 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 11:07:01.815 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1492)
+2022-06-13 11:07:01.822 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-13 14:06:35.845 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:06:35.846 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1492)
+2022-06-13 14:06:35.848 ***** ERROR ***** [V9.2.0] cause = Undefined variable: test2
+2022-06-13 14:07:17.945 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:07:17.946 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1492)
+2022-06-13 14:07:17.947 ***** ERROR ***** [V9.2.0] cause = Undefined variable: test2
+2022-06-13 14:08:17.985 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:08:17.986 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1438)
+2022-06-13 14:08:17.987 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-13 14:08:43.919 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:08:43.920 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1493)
+2022-06-13 14:08:43.921 ***** ERROR ***** [V9.2.0] cause = Undefined variable: test2
+2022-06-13 14:09:10.341 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:09:10.342 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1493)
+2022-06-13 14:09:10.342 ***** ERROR ***** [V9.2.0] cause = Undefined variable: test2
+2022-06-13 14:09:46.456 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:09:46.456 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1495)
+2022-06-13 14:09:46.457 ***** ERROR ***** [V9.2.0] cause = Undefined variable: test2
+2022-06-13 14:09:55.149 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:09:55.150 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1546)
+2022-06-13 14:09:55.150 ***** ERROR ***** [V9.2.0] cause = Undefined variable: arr
+2022-06-13 14:10:34.444 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:10:34.446 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1546)
+2022-06-13 14:10:34.447 ***** ERROR ***** [V9.2.0] cause = Undefined variable: arr
+2022-06-13 14:11:17.931 ===== TRACE ===== WARNING - Left work not retrieved from screen
+2022-06-13 14:11:17.932 ===== TRACE =====         - Maybe max_input_vars is too small in php.ini (actual value is 4000)
+2022-06-13 14:11:17.932 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:11:17.933 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\tool\saveImputation.php' at line (39)
+2022-06-13 14:11:17.933 ***** ERROR ***** [V9.2.0] cause = Error - Maybe max_input_vars is too small in php.ini
+2022-06-13 14:11:24.828 ===== TRACE ===== WARNING - Left work not retrieved from screen
+2022-06-13 14:11:24.829 ===== TRACE =====         - Maybe max_input_vars is too small in php.ini (actual value is 4000)
+2022-06-13 14:11:24.829 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:11:24.830 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\tool\saveImputation.php' at line (39)
+2022-06-13 14:11:24.830 ***** ERROR ***** [V9.2.0] cause = Error - Maybe max_input_vars is too small in php.ini
+2022-06-13 14:11:41.423 ===== TRACE ===== WARNING - Left work not retrieved from screen
+2022-06-13 14:11:41.424 ===== TRACE =====         - Maybe max_input_vars is too small in php.ini (actual value is 4000)
+2022-06-13 14:11:41.424 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:11:41.425 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\tool\saveImputation.php' at line (39)
+2022-06-13 14:11:41.426 ***** ERROR ***** [V9.2.0] cause = Error - Maybe max_input_vars is too small in php.ini
+2022-06-13 14:11:47.422 ===== TRACE ===== WARNING - Left work not retrieved from screen
+2022-06-13 14:11:47.423 ===== TRACE =====         - Maybe max_input_vars is too small in php.ini (actual value is 4000)
+2022-06-13 14:11:47.423 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:11:47.423 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\tool\saveImputation.php' at line (39)
+2022-06-13 14:11:47.424 ***** ERROR ***** [V9.2.0] cause = Error - Maybe max_input_vars is too small in php.ini
+2022-06-13 14:11:52.348 ===== TRACE ===== WARNING - Left work not retrieved from screen
+2022-06-13 14:11:52.349 ===== TRACE =====         - Maybe max_input_vars is too small in php.ini (actual value is 4000)
+2022-06-13 14:11:52.349 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:11:52.349 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\tool\saveImputation.php' at line (39)
+2022-06-13 14:11:52.350 ***** ERROR ***** [V9.2.0] cause = Error - Maybe max_input_vars is too small in php.ini
+2022-06-13 14:11:55.128 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:11:55.130 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1546)
+2022-06-13 14:11:55.130 ***** ERROR ***** [V9.2.0] cause = Undefined variable: arr
+2022-06-13 14:11:59.740 ===== TRACE ===== WARNING - Left work not retrieved from screen
+2022-06-13 14:11:59.741 ===== TRACE =====         - Maybe max_input_vars is too small in php.ini (actual value is 4000)
+2022-06-13 14:11:59.742 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:11:59.742 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\tool\saveImputation.php' at line (39)
+2022-06-13 14:11:59.742 ***** ERROR ***** [V9.2.0] cause = Error - Maybe max_input_vars is too small in php.ini
+2022-06-13 14:12:56.320 ===== TRACE ===== WARNING - Left work not retrieved from screen
+2022-06-13 14:12:56.320 ===== TRACE =====         - Maybe max_input_vars is too small in php.ini (actual value is 4000)
+2022-06-13 14:12:56.321 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:12:56.321 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\tool\saveImputation.php' at line (39)
+2022-06-13 14:12:56.321 ***** ERROR ***** [V9.2.0] cause = Error - Maybe max_input_vars is too small in php.ini
+2022-06-13 14:13:01.897 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:13:01.898 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1546)
+2022-06-13 14:13:01.899 ***** ERROR ***** [V9.2.0] cause = Undefined variable: arr
+2022-06-13 14:15:34.407 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-13 14:15:34.409 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1439)
+2022-06-13 14:15:34.410 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()

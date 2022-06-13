@@ -1,0 +1,183 @@
+2022-06-10 09:46:27.875 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 09:46:27.877 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1475)
+2022-06-10 09:46:27.879 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, null given
+2022-06-10 10:42:51.235 ===== TRACE ===== NEW CONNECTED USER 'ilou' (using remember me feature)
+2022-06-10 10:42:51.838 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 10:42:51.839 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1423)
+2022-06-10 10:42:51.841 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 10:50:14.481 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 10:50:14.482 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1501)
+2022-06-10 10:50:14.483 ***** ERROR ***** [V9.2.0] cause = Use of undefined constant dijit - assumed 'dijit' (this will throw an Error in a future version of PHP)
+2022-06-10 10:52:46.786 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 10:52:46.788 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1501)
+2022-06-10 10:52:46.788 ***** ERROR ***** [V9.2.0] cause = Undefined variable: week
+2022-06-10 10:57:21.098 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 10:57:21.099 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1423)
+2022-06-10 10:57:21.100 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 10:59:25.016 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 10:59:25.017 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1864)
+2022-06-10 10:59:25.019 ***** ERROR ***** [V9.2.0] cause = A non well formed numeric value encountered
+2022-06-10 10:59:27.974 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 10:59:27.975 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1864)
+2022-06-10 10:59:27.975 ***** ERROR ***** [V9.2.0] cause = A non well formed numeric value encountered
+2022-06-10 11:00:13.154 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:00:13.156 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1716)
+2022-06-10 11:00:13.157 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 0
+2022-06-10 11:07:13.699 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:07:13.700 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1423)
+2022-06-10 11:07:13.701 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:07:47.772 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:07:47.773 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1423)
+2022-06-10 11:07:47.774 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:08:18.458 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:08:18.459 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1423)
+2022-06-10 11:08:18.460 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:09:08.126 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:09:08.127 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1423)
+2022-06-10 11:09:08.128 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:09:34.423 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:09:34.424 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1426)
+2022-06-10 11:09:34.425 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:10:09.050 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:10:09.053 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1426)
+2022-06-10 11:10:09.053 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:10:37.501 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:10:37.502 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1426)
+2022-06-10 11:10:37.502 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:10:52.973 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:10:52.974 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1426)
+2022-06-10 11:10:52.975 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:11:12.110 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:11:12.111 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1428)
+2022-06-10 11:11:12.112 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:12:29.528 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:12:29.529 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1428)
+2022-06-10 11:12:29.530 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:12:41.844 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:12:41.847 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1421)
+2022-06-10 11:12:41.848 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:13:11.659 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:13:11.660 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1421)
+2022-06-10 11:13:11.660 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 11:14:51.838 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:14:51.840 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1548)
+2022-06-10 11:14:51.840 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, null given
+2022-06-10 11:59:24.053 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 11:59:24.054 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1427)
+2022-06-10 11:59:24.055 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 12:00:09.055 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 12:00:09.058 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1427)
+2022-06-10 12:00:09.058 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 12:05:43.908 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-10 12:05:43.909 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1807)
+2022-06-10 12:05:43.911 ***** ERROR ***** [V9.2.0] cause = Call to undefined function r()
+2022-06-10 12:05:43.917 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php (1361) -> recupImputations()
+2022-06-10 12:05:43.917 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-06-10 12:05:43.918 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-10 12:06:47.001 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 12:06:47.002 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1800)
+2022-06-10 12:06:47.003 ***** ERROR ***** [V9.2.0] cause = Undefined variable: curDate
+2022-06-10 12:06:56.645 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 12:06:56.646 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1800)
+2022-06-10 12:06:56.646 ***** ERROR ***** [V9.2.0] cause = Undefined variable: curDate
+2022-06-10 13:57:54.523 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-06-10 15:25:04.695 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 15:25:04.697 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1453)
+2022-06-10 15:25:04.698 ***** ERROR ***** [V9.2.0] cause = Illegal offset type
+2022-06-10 15:25:51.875 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-10 15:25:51.877 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1453)
+2022-06-10 15:25:51.877 ***** ERROR ***** [V9.2.0] cause = Call to undefined function array_psh()
+2022-06-10 15:25:51.878 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-06-10 15:25:51.878 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-10 15:29:41.989 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-10 15:29:41.990 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1447)
+2022-06-10 15:29:41.991 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected ','
+2022-06-10 15:29:41.991 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> spl_autoload_call()
+2022-06-10 15:29:41.992 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-10 15:29:56.613 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-10 15:29:56.614 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1449)
+2022-06-10 15:29:56.615 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected '}'
+2022-06-10 15:29:56.615 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> spl_autoload_call()
+2022-06-10 15:29:56.615 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-10 15:59:13.820 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 15:59:13.821 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1447)
+2022-06-10 15:59:13.822 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 11
+2022-06-10 16:01:03.330 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:01:03.331 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1448)
+2022-06-10 16:01:03.331 ***** ERROR ***** [V9.2.0] cause = Undefined variable: test
+2022-06-10 16:06:38.040 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:06:38.041 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1457)
+2022-06-10 16:06:38.042 ***** ERROR ***** [V9.2.0] cause = Undefined index: project_id
+2022-06-10 16:12:59.693 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:12:59.694 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1464)
+2022-06-10 16:12:59.695 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, integer given
+2022-06-10 16:13:44.083 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:13:44.085 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1466)
+2022-06-10 16:13:44.085 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, integer given
+2022-06-10 16:13:58.223 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:13:58.224 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1466)
+2022-06-10 16:13:58.224 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, integer given
+2022-06-10 16:14:09.716 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:14:09.717 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1466)
+2022-06-10 16:14:09.718 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, integer given
+2022-06-10 16:17:38.503 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:17:38.504 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1441)
+2022-06-10 16:17:38.505 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, null given
+2022-06-10 16:19:21.182 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:19:21.183 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1449)
+2022-06-10 16:19:21.184 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-06-10 16:19:53.336 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:19:53.337 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1449)
+2022-06-10 16:19:53.338 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-06-10 16:21:42.394 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:21:42.395 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1447)
+2022-06-10 16:21:42.396 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-06-10 16:31:21.947 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:31:21.948 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1422)
+2022-06-10 16:31:21.948 ***** ERROR ***** [V9.2.0] cause = Undefined variable: tests
+2022-06-10 16:32:31.458 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:32:31.458 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1455)
+2022-06-10 16:32:31.459 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 11
+2022-06-10 16:32:45.319 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:32:45.320 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1455)
+2022-06-10 16:32:45.321 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 11
+2022-06-10 16:33:00.098 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:33:00.099 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1455)
+2022-06-10 16:33:00.100 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 11
+2022-06-10 16:33:12.165 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:33:12.167 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1455)
+2022-06-10 16:33:12.167 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 11
+2022-06-10 16:33:31.662 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-10 16:33:31.663 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1456)
+2022-06-10 16:33:31.664 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected ')'
+2022-06-10 16:33:31.664 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> spl_autoload_call()
+2022-06-10 16:33:31.664 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-10 16:33:33.378 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-10 16:33:33.378 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1456)
+2022-06-10 16:33:33.390 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected ')'
+2022-06-10 16:33:33.391 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> spl_autoload_call()
+2022-06-10 16:33:33.391 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-10 16:34:05.074 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:34:05.074 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1460)
+2022-06-10 16:34:05.075 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 16:44:08.890 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:44:08.890 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1445)
+2022-06-10 16:44:08.891 ***** ERROR ***** [V9.2.0] cause = Cannot use a scalar value as an array
+2022-06-10 16:44:53.822 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:44:53.823 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1475)
+2022-06-10 16:44:53.823 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-10 16:54:16.440 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:54:16.441 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1459)
+2022-06-10 16:54:16.441 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 11
+2022-06-10 16:56:39.326 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 16:56:39.327 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1459)
+2022-06-10 16:56:39.328 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 11
+2022-06-10 17:03:10.205 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 17:03:10.206 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1449)
+2022-06-10 17:03:10.207 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, integer given
+2022-06-10 17:03:16.839 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 17:03:16.840 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1449)
+2022-06-10 17:03:16.841 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, integer given
+2022-06-10 17:04:10.875 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-10 17:04:10.876 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1449)
+2022-06-10 17:04:10.877 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, null given

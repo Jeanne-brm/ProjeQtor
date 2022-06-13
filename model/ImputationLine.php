@@ -38,6 +38,7 @@
  * Almost all other objects are linked to a given project.
  */
 require_once ('_securityCheck.php');
+//session_start();
 
  
 
@@ -71,6 +72,7 @@ class ImputationLine {
   public $description;
   public $functionName;
   public $fromPool;
+  
 
   /**
    * ==========================================================================
@@ -1356,10 +1358,10 @@ class ImputationLine {
       
     }
 
-    $res=ImputationLine::recupImputations($tab,$nbDays,$listLienProject);
-    print_r($res);
-    print_r($user->name); 
-    print_r(SqlList::getNameFromId('Profile', $user->idProfile));
+    $res=ImputationLine::recupImputations($tab,$nbDays,$listLienProject,$startDate);
+    //print_r($res);
+    //print_r($user->name); 
+    //print_r(SqlList::getNameFromId('Profile', $user->idProfile));
     
 
     $listLienProject=array();
@@ -1374,6 +1376,7 @@ class ImputationLine {
     }
     
 
+
     
     //$listLienProject=ImputationLine::addProjectToListLienProject($listLienProject, $listAllProject);
     //var_dump($listLienProject);
@@ -1387,10 +1390,7 @@ class ImputationLine {
     //$sumWork=Work::displayImputation(ImputationLine::getAllWorkProjectDay($i, $listLienProject, $tab, $line->refId));
     //var_dump($sumWork);
    
-    $projPe=new ProjectPlanningElement();
-    //var_dump($projPe);
-    //$name =$projPe->getDatabaseTableName();
-    //var_dump($name);
+    
     
     //echo $jsonTab;
     //var_dump($jsonTab);
@@ -1403,9 +1403,234 @@ class ImputationLine {
     $idle=false;
     $showPlannedWork=false; 
     //ImputationLine::drawLines($userId, $rangeType, $rangeValue, $idle, $showPlannedWork, true, $hideDone, $hideNotHandled, $displayOnlyCurrentWeekMeetings);
+    $work=new Work();
+
+    
+    print("<pre>res \n".print_r($res,true)."</pre>");
+    
+    $idNisa=$_SESSION['idNisa'];
+    $listeProjetsNisa=$_SESSION['listeProjets']['projectsAttributable']; 
+    //print("<pre>".print_r($listeProjetsNisa  ,true)."</pre>");
+
+    //print("<pre>listeprojetsNisa \n".print_r($listeProjetsNisa,true)."</pre>");
     
     
     
+    
+
+    
+    $tests['id']='';
+    $tests['workloads']='';
+    $tests=array();
+    $test1=array();
+    $marre=array();
+    $encore=[];
+    $ahh=array();
+    $arr1=array(
+      'id'=>'',
+      'workloads'=>''
+    );
+    $data = [];
+    $count=0;
+
+  
+    foreach ($res as $projets){
+      foreach ($listeProjetsNisa as $value){
+        if($projets['Nom']==$value['project_imput_code']){
+          foreach($projets['Days'] as $x =>$val){
+            if($val!=0){
+              $test =array(
+                'workload_date' => $x,
+                'workload_workload' => $val,
+                'workload_depreciate' => false,
+                'project_id' => $value['project_id'],
+                'workload_changed' => 2,
+                'workload_week' =>substr($rangeValue, 4, 2),
+                'workload_comment' => 'test',
+              );
+              $count+=1;
+              //print("<pre>test \n".print_r($test  ,true)."</pre>");
+              array_push($test1,$test);
+              //$tests['$value['project_id']']=$test1;
+              $test2['id']=$value['project_id'];
+              $test2['workloads']=$test1;
+              
+              print("<pre>encore \n".print_r($encore  ,true)."</pre>");
+              print("<pre>test2 \n".print_r($test2  ,true)."</pre>");
+
+
+              //$tests['id']=$value['project_id'];
+              //$tests['workloads']=$test1;
+              //print("<pre>test1".print_r($test1  ,true)."</pre>");
+              //$test1=array();
+          
+          
+          print("<pre>test1 \n".print_r($test1  ,true)."</pre>");
+
+
+          foreach($tests as $y=>$boop){
+            //print_r($boop);
+            print_r($y);
+          }
+          //print("<pre>marre \n".print_r($marre  ,true)."</pre>");
+          
+          
+          for ( $i = 0; $i <= count($tests); $i++ ) {
+                 $data += [ "workloads" => array($tests) ];
+          }
+          //print("<pre>data \n".print_r($data  ,true)."</pre>");
+          
+          $arr = array (
+              'user_id' => $idNisa,
+              'totalObjects' => count($tests),
+              'projects' =>
+              array(
+                $tests
+              ),
+          );
+            }
+          }
+          print("<pre>test2 \n".print_r($test2  ,true)."</pre>");
+          array_push($tests,$test2);
+          //print("<pre>avant \n".print_r($tests[1]  ,true)."</pre>");
+          array_push($encore,$test2);
+          $test1=array();
+          print("<pre>tests \n".print_r($tests  ,true)."</pre>");
+          print("<pre>encore \n".print_r($encore  ,true)."</pre>");
+
+
+          
+          //print("<pre>iner \n".print_r($inter  ,true)."</pre>");
+
+          //print("<pre>tests2 \n".print_r($tests  ,true)."</pre>");
+          //print("<pre>tests12 \n".print_r($test1  ,true)."</pre>");
+
+          //print("<pre>jsp \n".print_r($tests[$value['project_id']]  ,true)."</pre>");
+          //foreach($inter['workloads'] as $int){
+          //  //print("<pre>int \n".print_r($int  ,true)."</pre>");
+           // if($int['project_id']==$value['project_id']){
+           //   $oui=array(
+           //     'id'=>$value['project_id'],
+           //     'workloads'=>$int
+           //   );
+              //print("<pre>oui \n".print_r($oui  ,true)."</pre>");
+          //    array_push($marre,$oui);
+          //  }
+          //}
+            print_r(count($tests));
+          foreach($tests as $y=>$boop){
+            //print_r($boop);
+            //print_r($tests[$y]);
+          }
+          print("<pre>marre \n".print_r($encore  ,true)."</pre>");
+          print("<pre>tests2 \n".print_r($tests  ,true)."</pre>");
+
+          for ( $i = 0; $i < count($tests); $i++ ) {
+            $arr = array (
+              'user_id' => $idNisa,
+              'totalObjects' => $count,
+              'projects' =>
+              
+                $encore
+              
+          );
+          }
+
+
+          
+          //print("<pre>inter \n".print_r($inter  ,true)."</pre>");
+        }
+      }
+    }
+
+
+   print("<pre>".print_r($arr  ,true)."</pre>");
+   $_SESSION['arr']=$arr;
+   //print("<pre>".print_r($_SESSION['arr']  ,true)."</pre>");
+
+    $requestBodyy= array (
+        'user_id' => $idNisa,
+        'totalObjects' => 1,
+        'projects' => 
+        array (
+          0 => 
+          array (
+            'id' => 18,
+            'workloads' => 
+            array (
+              0 => 
+              array (
+                'workload_date' => '2022-05-25',
+                'workload_workload' => 0.5,
+                'workload_depreciate' => false,
+                'project_id' => 18,
+                'workload_changed' => 2,
+                'workload_week' => 21,
+                'workload_comment' => 'test',
+              ),
+              1=>
+              array (
+                'workload_date' => '2022-05-25',
+                'workload_workload' => 0.5,
+                'workload_depreciate' => false,
+                'project_id' => 18,
+                'workload_changed' => 2,
+                'workload_week' => 21,
+                'workload_comment' => 'test',
+              ),
+            ),
+          ),
+          1 =>
+          array (
+            'id' => 19,
+            'workloads' => 
+            array (
+              0 => 
+              array (
+                'workload_date' => '2022-05-25',
+                'workload_workload' => 0.5,
+                'workload_depreciate' => false,
+                'project_id' => 18,
+                'workload_changed' => 2,
+                'workload_week' => 21,
+                'workload_comment' => 'test',
+              ),
+            ),
+          ),
+
+        ),
+    );
+
+
+
+    
+    $requestBody= array (
+        'user_id' => $idNisa,
+        'totalObjects' => 1,
+        'projects' => 
+        array (
+          0 => 
+          array (
+            'id' => 18,
+            'workloads' => 
+            array (
+              0 => 
+              array (
+                'workload_date' => '2022-05-25',
+                'workload_workload' => 0.5,
+                'workload_depreciate' => false,
+                'project_id' => 18,
+                'workload_changed' => 2,
+                'workload_week' => 21,
+                'workload_comment' => 'test',
+              ),
+            ),
+          ),
+        ),
+    );
+    
+    print("<pre>".print_r($requestBody,true)."</pre>");
+    //print_r($requestBody);
    
     
     echo '</div>';
@@ -1649,18 +1874,30 @@ class ImputationLine {
     return $canValidate;
   }
 
-  static function recupImputations($tab, $nbDays,$listLienProject){
-    //$imputations=array();
+  static function recupImputations($tab, $nbDays,$listLienProject,$startDate){
+    $imputations=array(); 
+
+    $date=$startDate;
+
       foreach($tab as $key=>$line){
         if ($line->refType=='Project'){
           for ($i=1; $i<=$nbDays; $i++) {
-            $beep=ImputationLine::getAllWorkProjectDay($i, $listLienProject, $tab, $line->refId);
+            $sumWork=ImputationLine::getAllWorkProjectDay($i, $listLienProject, $tab, $line->refId);
             //$sumWork=Work::displayImputation(ImputationLine::getAllWorkProjectDay($i, $listLienProject, $tab, $line->refId));
-            $imputations[$line->name][]=($beep);
-          }  
+            //$imputations[$line->name][$line->refId][$curDate]=($sumWork);
+
+            $imputations[$line->name]["id"]=$line->refId;
+            $imputations[$line->name]["Nom"]=$line->name;
+            $imputations[$line->name]["Days"][$date]=$sumWork;     
+            $date=date('Y-m-d', strtotime("+1 days", strtotime($date)));
+
+          }
+          $date=$startDate;  
         }
       }
     return $imputations;
   }
+
+  
 }
 ?>

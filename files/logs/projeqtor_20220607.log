@@ -1,0 +1,82 @@
+2022-06-07 16:15:21.608 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:15:21.610 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1424)
+2022-06-07 16:15:21.610 ***** ERROR ***** [V9.2.0] cause = include(/custom/functionNisa.php): failed to open stream: No such file or directory
+2022-06-07 16:17:07.383 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:17:07.385 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1424)
+2022-06-07 16:17:07.386 ***** ERROR ***** [V9.2.0] cause = include(\custom\functionNisa.php): failed to open stream: No such file or directory
+2022-06-07 16:17:27.587 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:17:27.590 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-06-07 16:17:27.590 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-06-07 16:17:49.637 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:17:49.638 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-06-07 16:17:49.639 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-06-07 16:20:46.910 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:20:46.911 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-06-07 16:20:46.912 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-06-07 16:20:56.779 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:20:56.780 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1424)
+2022-06-07 16:20:56.781 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-07 16:21:08.765 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:21:08.765 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1424)
+2022-06-07 16:21:08.766 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-06-07 16:22:33.106 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:22:33.108 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1424)
+2022-06-07 16:22:33.109 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-07 16:23:27.450 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:23:27.451 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1424)
+2022-06-07 16:23:27.451 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-07 16:25:03.505 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:25:03.506 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1424)
+2022-06-07 16:25:03.506 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-07 16:25:14.483 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:25:14.488 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1424)
+2022-06-07 16:25:14.488 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-07 16:34:58.153 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:34:58.153 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1424)
+2022-06-07 16:34:58.154 ***** ERROR ***** [V9.2.0] cause = require(/custom/functionNisa.php): failed to open stream: No such file or directory
+2022-06-07 16:35:21.014 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:35:21.015 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1419)
+2022-06-07 16:35:21.016 ***** ERROR ***** [V9.2.0] cause = require(/custom/functionNisa.php): failed to open stream: No such file or directory
+2022-06-07 16:35:40.623 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:35:40.624 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1417)
+2022-06-07 16:35:40.625 ***** ERROR ***** [V9.2.0] cause = require(/custom/functionNisa.php): failed to open stream: No such file or directory
+2022-06-07 16:36:06.348 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:36:06.348 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1417)
+2022-06-07 16:36:06.349 ***** ERROR ***** [V9.2.0] cause = require(/custom/functionNisa.php): failed to open stream: No such file or directory
+2022-06-07 16:36:27.319 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:36:27.320 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1417)
+2022-06-07 16:36:27.320 ***** ERROR ***** [V9.2.0] cause = require(/custom/functionNisa.php): failed to open stream: No such file or directory
+2022-06-07 16:36:37.945 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:36:37.946 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1417)
+2022-06-07 16:36:37.946 ***** ERROR ***** [V9.2.0] cause = require(/custom/functionNisa.php): failed to open stream: No such file or directory
+2022-06-07 16:37:32.186 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:37:32.187 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1417)
+2022-06-07 16:37:32.188 ***** ERROR ***** [V9.2.0] cause = require_once(/custom/functionNisa.php): failed to open stream: No such file or directory
+2022-06-07 16:38:08.957 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:38:08.958 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (2)
+2022-06-07 16:38:08.959 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-06-07 16:38:43.663 ***** ERROR ***** [V9.2.0] Impossible to load class GuzzleHttp\Client<br/>  => Not found in ../model/custom/GuzzleHttp\Client.php <br/>  => Not found in ../model/GuzzleHttp\Client.php <br/>  => Not found in ../model/persistence/GuzzleHttp\Client.php <br/>
+2022-06-07 16:38:43.664 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-07 16:38:43.664 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (4)
+2022-06-07 16:38:43.664 ***** ERROR ***** [V9.2.0] cause = Class 'GuzzleHttp\Client' not found
+2022-06-07 16:38:43.665 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php (1417) -> require_once()
+2022-06-07 16:38:43.665 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-06-07 16:38:43.665 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-07 16:39:22.514 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:39:22.515 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\custom\functionNisa.php' at line (10)
+2022-06-07 16:39:22.515 ***** ERROR ***** [V9.2.0] cause = Undefined index: passNisa
+2022-06-07 16:43:09.638 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:43:09.639 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1417)
+2022-06-07 16:43:09.640 ***** ERROR ***** [V9.2.0] cause = session_start(): A session had already been started - ignoring
+2022-06-07 16:43:28.513 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:43:28.514 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1418)
+2022-06-07 16:43:28.515 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-07 16:46:46.601 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:46:46.602 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (42)
+2022-06-07 16:46:46.603 ***** ERROR ***** [V9.2.0] cause = session_start(): A session had already been started - ignoring
+2022-06-07 16:47:48.487 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:47:48.488 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1418)
+2022-06-07 16:47:48.489 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-07 16:54:23.561 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-07 16:54:23.562 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1418)
+2022-06-07 16:54:23.563 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa

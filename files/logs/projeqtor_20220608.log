@@ -1,0 +1,27 @@
+2022-06-08 09:41:07.356 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-08 09:41:07.359 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1418)
+2022-06-08 09:41:07.364 ***** ERROR ***** [V9.2.0] cause = Undefined index: listeProjets
+2022-06-08 09:46:35.648 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-08 09:46:35.649 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1416)
+2022-06-08 09:46:35.650 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 0
+2022-06-08 09:49:52.936 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-08 09:49:52.937 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1421)
+2022-06-08 09:49:52.940 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-06-08 09:52:04.321 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-08 09:52:04.322 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1422)
+2022-06-08 09:52:04.322 ***** ERROR ***** [V9.2.0] cause = Undefined variable: print_r
+2022-06-08 09:53:03.446 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-08 09:53:03.447 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1419)
+2022-06-08 09:53:03.447 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-08 09:53:24.222 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-08 09:53:24.223 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1419)
+2022-06-08 09:53:24.223 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-08 09:54:39.607 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-08 09:54:39.608 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1419)
+2022-06-08 09:54:39.608 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-08 09:54:50.218 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-08 09:54:50.219 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1419)
+2022-06-08 09:54:50.220 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 1
+2022-06-08 15:44:43.423 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-08 15:44:43.424 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1422)
+2022-06-08 15:44:43.425 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
