@@ -1,4 +1,5 @@
 <?php 
+
     /*
       Récupération des imputations saisies sur ProjeQtor pour un envoi vers NISA
     */
@@ -12,6 +13,7 @@
     //print("<pre>res \n" . print_r($imputations, true) . "</pre>");
 
     // Variables de sessions récupérées dans /custom/functionNisa.php 
+    
     $idNisa = $_SESSION['idNisa'];
     $listeProjetsNisa = $_SESSION['listeProjets']['projectsAttributable'];
     //print("<pre>".print_r($listeProjetsNisa  ,true)."</pre>");
@@ -22,46 +24,46 @@
     $count = 0; //trouver meilleur moyen de compter si ça existe
 
     //Boucle sur tous les projets ProjeQtor, les compare à la liste des projets NISA et formattage de la requête à envoyer 
-    foreach ($imputations as $projets) {
-      foreach ($listeProjetsNisa as $value) {
-        if ($projets['Nom'] == $value['project_imput_code']&&$projets['Vide']=='false') {
-          foreach ($projets['Days'] as $x => $val) {
-            if ($val != 0) {
-              $imput = array(
-                'workload_date' => $x,
-                'workload_workload' => $val,
-                'workload_depreciate' => false,
-                'project_id' => $value['project_id'],
-                'workload_changed' => 2,
-                'workload_week' => substr($rangeValue, 4, 2),
-                'workload_comment' => 'test',
-              );
-              $count += 1;
-              array_push($workloads, $imput);
-              $listeWorkloads['id'] = $value['project_id'];
-              $listeWorkloads['workloads'] = $workloads;
+    if(isset($idNisa) && isset($listeProjetsNisa)){
+      foreach ($imputations as $projets) {
+        foreach ($listeProjetsNisa as $value) {
+          if ($projets['Nom'] == $value['project_imput_code']&&$projets['Vide']=='false') {
+            foreach ($projets['Days'] as $x => $val) {
+              if ($val != 0) {
+                $imput = array(
+                  'workload_date' => $x,
+                  'workload_workload' => $val,
+                  'workload_depreciate' => false,
+                  'project_id' => $value['project_id'],
+                  'workload_changed' => 2,
+                  'workload_week' => substr($rangeValue, 4, 2),
+                  'workload_comment' => 'test',
+                );
+                $count += 1;
+                array_push($workloads, $imput);
+                $listeWorkloads['id'] = $value['project_id'];
+                $listeWorkloads['workloads'] = $workloads;
+              }
             }
-          }
-          array_push($format, $listeWorkloads);
-          $workloads = array();
+            array_push($format, $listeWorkloads);
+            $workloads = array();
 
-          $requete = array(
-            'user_id' => $idNisa,
-            'totalObjects' => $count,
-            'projects' =>
-              $format
-          );  
+            $requete = array(
+              'user_id' => $idNisa,
+              'totalObjects' => $count,
+              'projects' =>
+                $format
+            );  
+          }
         }
       }
+      print("<pre>" . print_r($requete, true) . "</pre>");
+      $_SESSION['arr'] = $requete;
     }
-    print("<pre>" . print_r($requete, true) . "</pre>");
-    $_SESSION['arr'] = $requete;
 
     function recupImputations($tab, $nbDays, $listLienProject, $startDate){
     $imputations = array();
-
     $date = $startDate;
-
     $isVide='true';
 
     foreach ($tab as $key => $line) {

@@ -54,8 +54,8 @@ require_once "../tool/formatter.php";
                 bouton dojo
             </button>
 
-            <iframe name="votar" style="display:none"></iframe>
-            <form action="../model/custom/test.php" method="post" target="votar">
+            <iframe name="votar"></iframe>
+            <form action="../model/custom/functionNisa.php" method="post" target="votar">
                 
                 Name: <input type="text" name="loginNisa">
                 <br><br>
