@@ -1,0 +1,32 @@
+2022-06-14 09:56:46.837 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-14 09:56:46.839 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1389)
+2022-06-14 09:56:46.840 ***** ERROR ***** [V9.2.0] cause = Undefined variable: encore
+2022-06-14 11:02:04.763 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-14 11:02:04.764 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (10)
+2022-06-14 11:02:04.765 ***** ERROR ***** [V9.2.0] cause = Call to undefined method ImputationLine::recupImputations()
+2022-06-14 11:02:04.770 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php (1346) -> include()
+2022-06-14 11:02:04.774 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-06-14 11:02:04.774 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-14 11:03:14.417 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-14 11:03:14.418 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (2)
+2022-06-14 11:03:14.419 ***** ERROR ***** [V9.2.0] cause = require(ImputationLine): failed to open stream: No such file or directory
+2022-06-14 11:03:41.891 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-14 11:03:41.892 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (11)
+2022-06-14 11:03:41.893 ***** ERROR ***** [V9.2.0] cause = Call to undefined method ImputationLine::recupImputations()
+2022-06-14 11:03:41.893 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php (1346) -> include()
+2022-06-14 11:03:41.893 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-06-14 11:03:41.893 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-14 11:05:10.591 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-06-14 11:05:56.139 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2022-06-14 11:06:09.966 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-14 11:06:09.969 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (15)
+2022-06-14 11:06:09.969 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-14 11:06:21.053 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-14 11:06:21.054 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (15)
+2022-06-14 11:06:21.055 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-14 11:06:54.815 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-14 11:06:54.816 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (26)
+2022-06-14 11:06:54.817 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()
+2022-06-14 11:07:21.184 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-14 11:07:21.185 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (26)
+2022-06-14 11:07:21.185 ***** ERROR ***** [V9.2.0] cause = Invalid argument supplied for foreach()

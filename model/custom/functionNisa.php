@@ -35,7 +35,7 @@ $requestBody= array (
           0 => 
           array (
             'workload_date' => '2022-06-06',
-            'workload_workload' => 0.5,
+            'workload_workload' => 0,
             'workload_depreciate' => false,
             'project_id' => 11,
             'workload_changed' => 2,
