@@ -1,0 +1,60 @@
+2022-06-16 10:13:47.102 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 10:13:47.105 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (6)
+2022-06-16 10:13:47.108 ***** ERROR ***** [V9.2.0] cause = require_once(../../model/custom/vendor/autoload.php): failed to open stream: No such file or directory
+2022-06-16 10:14:22.314 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 10:14:22.315 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (15)
+2022-06-16 10:14:22.315 ***** ERROR ***** [V9.2.0] cause = Undefined index: passNisa
+2022-06-16 10:33:10.491 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 10:34:11.421 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 10:35:12.045 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 10:36:12.665 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 10:37:02.931 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 10:37:02.931 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (16)
+2022-06-16 10:37:02.932 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-16 10:37:28.031 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 10:37:28.032 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (16)
+2022-06-16 10:37:28.033 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-16 10:37:28.695 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 10:37:28.695 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (16)
+2022-06-16 10:37:28.696 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-16 10:37:54.201 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 10:37:54.202 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (16)
+2022-06-16 10:37:54.202 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-16 10:53:28.641 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-06-16 10:53:28.641 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-06-16 10:53:28.642 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 10:53:28.642 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-06-16 10:53:28.642 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-06-16 10:53:28.642 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 10:53:28.642 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #1 - admin
+2022-06-16 10:53:28.643 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 10:54:17.877 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 10:55:01.089 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-06-16 10:55:01.090 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-06-16 10:55:01.090 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 10:55:01.090 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-06-16 10:55:01.090 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-06-16 10:55:01.090 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 10:55:01.091 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #1 - admin
+2022-06-16 10:55:01.091 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 10:55:18.463 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 10:57:09.017 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 10:57:09.017 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (9)
+2022-06-16 10:57:09.018 ***** ERROR ***** [V9.2.0] cause = Undefined variable: resourceId
+2022-06-16 10:57:11.463 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 10:57:11.464 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (9)
+2022-06-16 10:57:11.465 ***** ERROR ***** [V9.2.0] cause = Undefined variable: resourceId
+2022-06-16 10:57:16.600 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 10:57:16.601 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (9)
+2022-06-16 10:57:16.602 ***** ERROR ***** [V9.2.0] cause = Undefined variable: resourceId
+2022-06-16 10:57:22.208 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 10:57:22.209 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (17)
+2022-06-16 10:57:22.210 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-16 10:57:23.822 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 10:57:23.823 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (17)
+2022-06-16 10:57:23.823 ***** ERROR ***** [V9.2.0] cause = Undefined index: idNisa
+2022-06-16 11:21:59.607 ===== TRACE ===== NEW CONNECTED USER 'ilou' (using remember me feature)
+2022-06-16 11:22:13.961 ===== TRACE ===== DISCONNECTED USER 'ilou'
+2022-06-16 11:23:56.717 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-06-16 11:29:13.618 ===== TRACE ===== Login error for user 'admin'
+2022-06-16 11:29:16.642 ===== TRACE ===== NEW CONNECTED USER 'admin'

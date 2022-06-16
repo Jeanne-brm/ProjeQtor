@@ -39,8 +39,6 @@
  * Almost all other objects are linked to a given project.
  */
 require_once('_securityCheck.php');
-//session_start();
-
 
 
 class ImputationLine

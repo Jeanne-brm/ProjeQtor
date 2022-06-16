@@ -1,7 +1,7 @@
 <?php
-session_start();
-require_once "../../model/custom/vendor/autoload.php";
-//require_once "../../model/ImputationLine.php";
+//session_start();
+require_once "/custom/vendor/autoload.php";
+require_once "/ImputationLine.php";
 
 use GuzzleHttp\Client;
 
@@ -45,19 +45,16 @@ $requestBody= array (
 );
 
 //création workload
-if(isset($_SESSION['arr'])){
-  $response = $client->request('POST', '/api/users/workloads/create', [
-      'json' => $_SESSION['arr']
-  ]);
-  print("<pre>".print_r($_SESSION['arr']  ,true)."</pre>");
-}
+$response = $client->request('POST', '/api/users/workloads/create', [
+    'json' => $_SESSION['arr']
+]);
 
 //$idNisa='';
 $idNisa=recupId($client, $loginNisa);
 $_SESSION['idNisa']=$idNisa;
-$_SESSION['listeProjets']=recupListeProjet($client);
-echo 'oui';
 
+$_SESSION['listeProjets']=recupListeProjet($client);
+print("<pre>".print_r($_SESSION['arr']  ,true)."</pre>");
 //print("<pre>".print_r($requestBody  ,true)."</pre>");
 
 

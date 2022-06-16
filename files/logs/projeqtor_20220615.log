@@ -1,0 +1,6 @@
+2022-06-15 09:58:16.991 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-15 09:58:16.995 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (60)
+2022-06-15 09:58:16.996 ***** ERROR ***** [V9.2.0] cause = Undefined variable: requete
+2022-06-15 09:58:25.968 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-15 09:58:25.969 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (60)
+2022-06-15 09:58:25.969 ***** ERROR ***** [V9.2.0] cause = Undefined variable: requete
