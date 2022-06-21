@@ -1,0 +1,126 @@
+2022-06-20 11:13:00.858 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:13:00.859 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (29)
+2022-06-20 11:13:00.863 ***** ERROR ***** [V9.2.0] cause = Undefined variable: wrok
+2022-06-20 11:15:52.349 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-06-20 11:21:06.457 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-20 11:21:06.459 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (30)
+2022-06-20 11:21:06.459 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected ')'
+2022-06-20 11:21:06.460 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-06-20 11:21:06.462 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-20 11:21:17.665 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-20 11:21:17.667 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (30)
+2022-06-20 11:21:17.667 ***** ERROR ***** [V9.2.0] cause = syntax error, unexpected ')'
+2022-06-20 11:21:17.668 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-06-20 11:21:17.668 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-20 11:29:18.452 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:29:18.453 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (28)
+2022-06-20 11:29:18.453 ***** ERROR ***** [V9.2.0] cause = Undefined index: workloads
+2022-06-20 11:29:26.745 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:29:26.746 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (28)
+2022-06-20 11:29:26.747 ***** ERROR ***** [V9.2.0] cause = Undefined index: workloads
+2022-06-20 11:30:01.828 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:30:01.830 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (62)
+2022-06-20 11:30:01.831 ***** ERROR ***** [V9.2.0] cause = Undefined index: workloads
+2022-06-20 11:37:27.059 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:37:27.060 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (74)
+2022-06-20 11:37:27.060 ***** ERROR ***** [V9.2.0] cause = Undefined index: week
+2022-06-20 11:44:33.708 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:44:33.709 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (29)
+2022-06-20 11:44:33.710 ***** ERROR ***** [V9.2.0] cause = Undefined variable: value
+2022-06-20 11:44:47.957 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:44:47.959 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (29)
+2022-06-20 11:44:47.959 ***** ERROR ***** [V9.2.0] cause = Undefined index: project_id
+2022-06-20 11:51:01.485 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:51:01.486 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (91)
+2022-06-20 11:51:01.487 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 11:51:03.059 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:51:03.059 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (91)
+2022-06-20 11:51:03.060 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 11:51:44.859 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:51:44.860 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (91)
+2022-06-20 11:51:44.860 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 11:52:16.754 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:52:16.755 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (91)
+2022-06-20 11:52:16.756 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 11:53:11.707 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:53:11.708 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (92)
+2022-06-20 11:53:11.709 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 11:53:39.203 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:53:39.204 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (90)
+2022-06-20 11:53:39.204 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 11:53:54.612 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:53:54.613 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (91)
+2022-06-20 11:53:54.614 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 11:54:09.165 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:54:09.166 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (90)
+2022-06-20 11:54:09.167 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 11:54:47.444 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:54:47.445 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (66)
+2022-06-20 11:54:47.445 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 11:55:15.993 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:55:15.994 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (91)
+2022-06-20 11:55:15.995 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 11:55:33.762 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:55:33.762 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (91)
+2022-06-20 11:55:33.763 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 11:56:23.194 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 11:56:23.196 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (91)
+2022-06-20 11:56:23.196 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 14:11:28.271 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 14:11:28.272 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (69)
+2022-06-20 14:11:28.273 ***** ERROR ***** [V9.2.0] cause = Object of class DateTime could not be converted to string
+2022-06-20 14:16:37.019 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 14:16:37.020 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (70)
+2022-06-20 14:16:37.021 ***** ERROR ***** [V9.2.0] cause = gmdate() expects parameter 2 to be integer, object given
+2022-06-20 14:17:27.946 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-20 14:17:27.947 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (70)
+2022-06-20 14:17:27.947 ***** ERROR ***** [V9.2.0] cause = Call to undefined function mktim()
+2022-06-20 14:17:27.947 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php (1345) -> include()
+2022-06-20 14:17:27.947 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-06-20 14:17:27.948 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()
+2022-06-20 14:18:31.185 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 14:18:31.187 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (70)
+2022-06-20 14:18:31.188 ***** ERROR ***** [V9.2.0] cause = mktime() expects parameter 1 to be integer, object given
+2022-06-20 14:18:47.339 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 14:18:47.340 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (70)
+2022-06-20 14:18:47.341 ***** ERROR ***** [V9.2.0] cause = A non well formed numeric value encountered
+2022-06-20 14:21:42.364 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 14:21:42.365 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (28)
+2022-06-20 14:21:42.368 ***** ERROR ***** [V9.2.0] cause = Undefined variable: workloadsNisa
+2022-06-20 14:22:23.444 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 14:22:23.445 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (28)
+2022-06-20 14:22:23.446 ***** ERROR ***** [V9.2.0] cause = Undefined variable: workloadsNisa
+2022-06-20 14:22:59.291 ===== TRACE ===== DISCONNECTED USER 'ilou'
+2022-06-20 14:23:01.747 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 14:23:01.748 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (28)
+2022-06-20 14:23:01.749 ***** ERROR ***** [V9.2.0] cause = Undefined variable: workloadsNisa
+2022-06-20 16:41:36.306 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 16:41:36.307 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (115)
+2022-06-20 16:41:36.307 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 16:41:49.517 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 16:41:49.518 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (100)
+2022-06-20 16:41:49.518 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 16:42:07.264 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 16:42:07.266 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (100)
+2022-06-20 16:42:07.266 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 16:42:29.430 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 16:42:29.431 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (100)
+2022-06-20 16:42:29.431 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 16:42:45.090 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 16:42:45.091 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (100)
+2022-06-20 16:42:45.091 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 16:43:29.306 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 16:43:29.307 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (100)
+2022-06-20 16:43:29.308 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 16:43:53.591 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 16:43:53.593 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (101)
+2022-06-20 16:43:53.593 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 16:44:00.315 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 16:44:00.315 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (101)
+2022-06-20 16:44:00.316 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 16:44:29.928 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 16:44:29.929 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (101)
+2022-06-20 16:44:29.929 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-20 16:56:33.856 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-20 16:56:33.858 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (82)
+2022-06-20 16:56:33.860 ***** ERROR ***** [V9.2.0] cause = Undefined index: workload_date

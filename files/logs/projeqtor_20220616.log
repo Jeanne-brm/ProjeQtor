@@ -58,3 +58,200 @@
 2022-06-16 11:23:56.717 ===== TRACE ===== DISCONNECTED USER 'admin'
 2022-06-16 11:29:13.618 ===== TRACE ===== Login error for user 'admin'
 2022-06-16 11:29:16.642 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2022-06-16 12:29:23.726 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 13:48:52.056 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 13:59:52.681 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 14:00:23.942 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-06-16 14:00:23.943 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-06-16 14:00:23.945 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:00:23.949 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-06-16 14:00:23.950 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-06-16 14:00:23.951 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:00:23.951 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #1 - admin
+2022-06-16 14:00:23.952 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:05:35.619 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 14:05:35.692 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-06-16 14:05:35.692 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-06-16 14:05:35.693 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:05:35.693 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-06-16 14:05:35.693 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-06-16 14:05:35.693 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:05:35.693 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #1 - admin
+2022-06-16 14:05:35.693 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:05:38.079 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 14:05:40.515 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-06-16 14:05:40.515 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-06-16 14:05:40.516 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:05:40.516 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-06-16 14:05:40.516 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-06-16 14:05:40.516 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:05:40.516 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #1 - admin
+2022-06-16 14:05:40.517 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:05:51.793 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 14:06:19.146 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-06-16 14:06:19.147 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-06-16 14:06:19.149 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:06:19.149 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-06-16 14:06:19.150 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-06-16 14:06:19.150 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:06:19.150 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #1 - admin
+2022-06-16 14:06:19.151 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:06:33.780 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 14:06:33.810 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-06-16 14:06:33.811 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-06-16 14:06:33.812 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:06:33.812 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-06-16 14:06:33.812 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-06-16 14:06:33.812 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:06:33.812 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #1 - admin
+2022-06-16 14:06:33.812 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:06:36.539 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 14:06:48.877 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-06-16 14:06:48.877 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-06-16 14:06:48.878 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:06:48.878 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-06-16 14:06:48.878 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-06-16 14:06:48.878 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:06:48.878 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #1 - admin
+2022-06-16 14:06:48.878 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:07:13.254 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 14:14:49.764 ***** ERROR ***** [V9.2.0] HACK ================================================================
+2022-06-16 14:14:49.765 ***** ERROR ***** [V9.2.0] Try to hack detected
+2022-06-16 14:14:49.766 ***** ERROR ***** [V9.2.0]  Source Code = Direct acces to class file /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:14:49.766 ***** ERROR ***** [V9.2.0]  QUERY_STRING = 
+2022-06-16 14:14:49.766 ***** ERROR ***** [V9.2.0]  REMOTE_ADDR = 127.0.0.1
+2022-06-16 14:14:49.766 ***** ERROR ***** [V9.2.0]  SCRIPT_FILENAME = E:/Logiciels/xampp/htdocs/jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:14:49.766 ***** ERROR ***** [V9.2.0]  CONNECTED USER = #1 - admin
+2022-06-16 14:14:49.767 ***** ERROR ***** [V9.2.0]  REQUEST_URI = /jeanne/ProjeQtor/model/ImputationLineNisa.php
+2022-06-16 14:17:28.818 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2022-06-16 14:17:29.176 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:17:29.177 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (8)
+2022-06-16 14:17:29.178 ***** ERROR ***** [V9.2.0] cause = require_once(../../tool/projeqtor.php): failed to open stream: No such file or directory
+2022-06-16 14:18:10.688 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:18:10.689 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (12)
+2022-06-16 14:18:10.690 ***** ERROR ***** [V9.2.0] cause = Undefined variable: resourceId
+2022-06-16 14:20:03.701 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:20:03.702 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1437)
+2022-06-16 14:20:03.702 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 258
+2022-06-16 14:21:19.281 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:21:19.282 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (15)
+2022-06-16 14:21:19.282 ***** ERROR ***** [V9.2.0] cause = Undefined variable: tab
+2022-06-16 14:21:30.879 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:21:30.880 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (13)
+2022-06-16 14:21:30.881 ***** ERROR ***** [V9.2.0] cause = Undefined variable: rangeType
+2022-06-16 14:21:35.839 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:21:35.840 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1437)
+2022-06-16 14:21:35.841 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 258
+2022-06-16 14:21:49.502 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:21:49.503 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (13)
+2022-06-16 14:21:49.503 ***** ERROR ***** [V9.2.0] cause = Undefined variable: rangeType
+2022-06-16 14:22:26.151 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:22:26.152 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (13)
+2022-06-16 14:22:26.153 ***** ERROR ***** [V9.2.0] cause = Undefined index: rangeType
+2022-06-16 14:22:42.023 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:22:42.024 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (13)
+2022-06-16 14:22:42.025 ***** ERROR ***** [V9.2.0] cause = Undefined index: rangeType
+2022-06-16 14:22:45.662 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:22:45.663 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (13)
+2022-06-16 14:22:45.664 ***** ERROR ***** [V9.2.0] cause = Undefined index: rangeType
+2022-06-16 14:22:47.495 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:22:47.497 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (13)
+2022-06-16 14:22:47.497 ***** ERROR ***** [V9.2.0] cause = Undefined index: rangeType
+2022-06-16 14:23:25.921 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:23:25.922 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (15)
+2022-06-16 14:23:25.922 ***** ERROR ***** [V9.2.0] cause = Undefined variable: rangeValue
+2022-06-16 14:23:52.630 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:23:52.631 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (14)
+2022-06-16 14:23:52.631 ***** ERROR ***** [V9.2.0] cause = Array to string conversion
+2022-06-16 14:24:06.001 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:24:06.001 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (15)
+2022-06-16 14:24:06.002 ***** ERROR ***** [V9.2.0] cause = Undefined variable: rangeValue
+2022-06-16 14:27:25.469 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:27:25.470 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (74)
+2022-06-16 14:27:25.470 ***** ERROR ***** [V9.2.0] cause = Undefined variable: userId
+2022-06-16 14:28:53.567 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:28:53.568 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationNIsa.php' at line (74)
+2022-06-16 14:28:53.568 ***** ERROR ***** [V9.2.0] cause = Undefined variable: userId
+2022-06-16 14:30:15.608 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:30:15.610 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (127)
+2022-06-16 14:30:15.610 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:30:24.191 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:30:24.192 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (16)
+2022-06-16 14:30:24.192 ***** ERROR ***** [V9.2.0] cause = Undefined variable: showIdle
+2022-06-16 14:32:39.155 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:32:39.156 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (127)
+2022-06-16 14:32:39.156 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:32:51.093 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:32:51.094 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (18)
+2022-06-16 14:32:51.095 ***** ERROR ***** [V9.2.0] cause = Undefined variable: showPlanned
+2022-06-16 14:37:47.913 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:37:47.914 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (127)
+2022-06-16 14:37:47.915 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:38:01.012 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:38:01.013 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (18)
+2022-06-16 14:38:01.014 ***** ERROR ***** [V9.2.0] cause = Undefined variable: showPlanned
+2022-06-16 14:38:31.251 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:38:31.253 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (127)
+2022-06-16 14:38:31.253 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:38:35.734 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:38:35.737 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (19)
+2022-06-16 14:38:35.737 ***** ERROR ***** [V9.2.0] cause = Undefined variable: hideDone
+2022-06-16 14:42:11.482 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:42:11.485 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (127)
+2022-06-16 14:42:11.486 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:42:14.431 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:42:14.432 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (127)
+2022-06-16 14:42:14.437 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:42:25.609 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:42:25.610 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (127)
+2022-06-16 14:42:25.611 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:42:27.583 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:42:27.584 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (127)
+2022-06-16 14:42:27.585 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:43:26.303 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:43:26.303 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (127)
+2022-06-16 14:43:26.304 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:43:28.158 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:43:28.159 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (127)
+2022-06-16 14:43:28.160 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:47:14.996 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:47:15.002 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (127)
+2022-06-16 14:47:15.003 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:47:37.853 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:47:37.854 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (128)
+2022-06-16 14:47:37.854 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:48:25.117 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:48:25.118 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (128)
+2022-06-16 14:48:25.118 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:48:28.559 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:48:28.560 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (128)
+2022-06-16 14:48:28.560 ***** ERROR ***** [V9.2.0] cause = Undefined variable: nbDays
+2022-06-16 14:49:22.385 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:49:22.385 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (26)
+2022-06-16 14:49:22.386 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listLienProject
+2022-06-16 14:59:09.023 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:59:09.024 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (23)
+2022-06-16 14:59:09.025 ***** ERROR ***** [V9.2.0] cause = Undefined variable: tab
+2022-06-16 14:59:47.315 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 14:59:47.320 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (37)
+2022-06-16 14:59:47.321 ***** ERROR ***** [V9.2.0] cause = Undefined variable: startDate
+2022-06-16 15:00:37.845 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-16 15:00:37.846 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (23)
+2022-06-16 15:00:37.846 ***** ERROR ***** [V9.2.0] cause = Cannot access self:: when no class scope is active
+2022-06-16 15:01:00.538 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-16 15:01:00.538 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (23)
+2022-06-16 15:01:00.539 ***** ERROR ***** [V9.2.0] cause = Call to private method ImputationLine::getFirstDay() from context ''
+2022-06-16 15:05:25.731 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 15:05:25.732 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (112)
+2022-06-16 15:05:25.733 ***** ERROR ***** [V9.2.0] cause = Object of class ImputationLine could not be converted to string
+2022-06-16 15:09:42.780 ===== TRACE ===== NEW CONNECTED USER 'ilou'
+2022-06-16 15:40:07.585 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 15:40:07.586 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1440)
+2022-06-16 15:40:07.586 ***** ERROR ***** [V9.2.0] cause = Trying to get property 'work' of non-object
+2022-06-16 15:41:51.808 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 15:41:51.809 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php' at line (1438)
+2022-06-16 15:41:51.810 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 2174
+2022-06-16 16:17:50.263 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-16 16:17:50.265 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (36)
+2022-06-16 16:17:50.265 ***** ERROR ***** [V9.2.0] cause = Undefined offset: 0
+2022-06-16 16:47:24.728 ===== TRACE ===== DISCONNECTED USER 'ilou'

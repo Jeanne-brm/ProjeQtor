@@ -44,19 +44,62 @@ $requestBody= array (
     ),
 );
 
+$requestupdate= array (
+  'user_id' => '1',
+  'totalObjects' => 1,
+  'projects' => 
+  array (
+    0 => 
+    array (
+      'id' => 11,
+      'workloads' => 
+      array (
+        0 => 
+        array (
+          'workload_date' => '2022-06-06',
+          'workload_workload' => 0,
+          'workload_depreciate' => false,
+          'project_id' => 11,
+          'workload_changed' => 2,
+          'workload_week' => 21,
+          'workload_comment' => 'test',
+        ),
+      ),
+    ),
+  ),
+);
+
 //création workload
 if(isset($_SESSION['arr'])){
   $response = $client->request('POST', '/api/users/workloads/create', [
-      'json' => $_SESSION['arr']
+      'json' => $requestBody
   ]);
-  print("<pre>".print_r($_SESSION['arr']  ,true)."</pre>");
+  //print("<pre>".print_r($_SESSION['arr']  ,true)."</pre>");
 }
+if(isset($_SESSION['update'])){
+  $response = $client->request('PATCH', '/api/users/workloads/update', [
+      'json' => $_SESSION['update']
+  ]);
+  print("<pre>".print_r($_SESSION['update']  ,true)."</pre>");
+}
+//$response = $client->request('POST', '/api/users/workloads/create', [
+//  'json' => $requestBody
+//]);
+
+
 
 //$idNisa='';
 $idNisa=recupId($client, $loginNisa);
 $_SESSION['idNisa']=$idNisa;
 $_SESSION['listeProjets']=recupListeProjet($client);
-echo 'oui';
+echo 'idNisa = '.$idNisa;
+
+
+$response_workloads = $client->request('GET', 'api/users/'.$idNisa.'/workloads/2022-06-20/dates/2022-06-26');
+$body_workloads =$response_workloads->getBody();
+$array_workloads=json_decode($body_workloads,true);
+$_SESSION['workloadsNisa']=$array_workloads['workloads'];
+print("<pre>".print_r($array_workloads['workloads']  ,true)."</pre>");
 
 //print("<pre>".print_r($requestBody  ,true)."</pre>");
 

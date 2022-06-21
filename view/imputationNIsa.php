@@ -64,6 +64,14 @@ require_once "../tool/formatter.php";
                 <input type="submit" value="bouton php">
             </form>
 
+            <button tabindex="3" id="loginButton"  dojoType="dijit.form.Button" type="submit" class="largeTextButton" showlabel="true" >
+            <?php echo i18n('loginLib');?>
+                <script type="dojo/connect" event="onClick" args="evt">
+                    bonjour();
+                </script>
+            </button>
+            
+
         </td>
         <td></td>
         </tr>
