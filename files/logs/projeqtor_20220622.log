@@ -1,0 +1,6 @@
+2022-06-22 10:07:03.086 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-22 10:07:03.087 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (35)
+2022-06-22 10:07:03.087 ***** ERROR ***** [V9.2.0] cause = Undefined variable: workloadsNisa
+2022-06-22 10:15:17.260 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-22 10:15:17.260 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (35)
+2022-06-22 10:15:17.261 ***** ERROR ***** [V9.2.0] cause = Undefined variable: workloadsNisa

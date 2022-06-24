@@ -72,16 +72,11 @@ $requestupdate= array (
 //création workload
 if(isset($_SESSION['arr'])){
   $response = $client->request('POST', '/api/users/workloads/create', [
-      'json' => $requestBody
+      'json' => $_SESSION['arr']
   ]);
-  //print("<pre>".print_r($_SESSION['arr']  ,true)."</pre>");
+  print("<pre>".print_r($_SESSION['arr']  ,true)."</pre>");
 }
-if(isset($_SESSION['update'])){
-  $response = $client->request('PATCH', '/api/users/workloads/update', [
-      'json' => $_SESSION['update']
-  ]);
-  print("<pre>".print_r($_SESSION['update']  ,true)."</pre>");
-}
+
 //$response = $client->request('POST', '/api/users/workloads/create', [
 //  'json' => $requestBody
 //]);
@@ -92,14 +87,24 @@ if(isset($_SESSION['update'])){
 $idNisa=recupId($client, $loginNisa);
 $_SESSION['idNisa']=$idNisa;
 $_SESSION['listeProjets']=recupListeProjet($client);
-echo 'idNisa = '.$idNisa;
+//echo 'idNisa = '.$idNisa;
 
 
 $response_workloads = $client->request('GET', 'api/users/'.$idNisa.'/workloads/2022-06-20/dates/2022-06-26');
 $body_workloads =$response_workloads->getBody();
 $array_workloads=json_decode($body_workloads,true);
 $_SESSION['workloadsNisa']=$array_workloads['workloads'];
+
 print("<pre>".print_r($array_workloads['workloads']  ,true)."</pre>");
+
+
+if(isset($_SESSION['update'])){
+  print_r('oui');
+  $response = $client->request('PATCH', '/api/users/workloads/update', [
+      'json' => $_SESSION['update']
+  ]);
+  print("<pre>".print_r($_SESSION['update']  ,true)."</pre>");
+}
 
 //print("<pre>".print_r($requestBody  ,true)."</pre>");
 

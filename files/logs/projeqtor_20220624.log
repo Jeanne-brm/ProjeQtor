@@ -1,0 +1,44 @@
+2022-06-24 14:09:11.144 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2022-06-24 14:15:39.238 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2022-06-24 16:18:19.718 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:18:19.719 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (138)
+2022-06-24 16:18:19.720 ***** ERROR ***** [V9.2.0] cause = Undefined index: update
+2022-06-24 16:19:03.697 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:19:03.698 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (136)
+2022-06-24 16:19:03.698 ***** ERROR ***** [V9.2.0] cause = Undefined index: update
+2022-06-24 16:19:17.609 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:19:17.609 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (136)
+2022-06-24 16:19:17.610 ***** ERROR ***** [V9.2.0] cause = Undefined index: update
+2022-06-24 16:20:07.960 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:20:07.960 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (135)
+2022-06-24 16:20:07.961 ***** ERROR ***** [V9.2.0] cause = Undefined index: update
+2022-06-24 16:40:47.297 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:40:47.298 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (40)
+2022-06-24 16:40:47.298 ***** ERROR ***** [V9.2.0] cause = Undefined index: update
+2022-06-24 16:41:20.658 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:41:20.658 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (39)
+2022-06-24 16:41:20.659 ***** ERROR ***** [V9.2.0] cause = Undefined index: update
+2022-06-24 16:41:40.111 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:41:40.113 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (92)
+2022-06-24 16:41:40.115 ***** ERROR ***** [V9.2.0] cause = Undefined variable: update
+2022-06-24 16:42:17.508 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:42:17.509 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (88)
+2022-06-24 16:42:17.509 ***** ERROR ***** [V9.2.0] cause = array_push() expects parameter 1 to be array, null given
+2022-06-24 16:43:17.098 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:43:17.098 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (39)
+2022-06-24 16:43:17.099 ***** ERROR ***** [V9.2.0] cause = Undefined index: update
+2022-06-24 16:43:26.483 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:43:26.484 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (38)
+2022-06-24 16:43:26.485 ***** ERROR ***** [V9.2.0] cause = Undefined variable: requete_update
+2022-06-24 16:43:52.834 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:43:52.836 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (38)
+2022-06-24 16:43:52.838 ***** ERROR ***** [V9.2.0] cause = Undefined variable: requete_update
+2022-06-24 16:46:12.610 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:46:12.612 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (145)
+2022-06-24 16:46:12.613 ***** ERROR ***** [V9.2.0] cause = Undefined index: update
+2022-06-24 16:53:28.060 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 16:53:28.062 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (111)
+2022-06-24 16:53:28.064 ***** ERROR ***** [V9.2.0] cause = Undefined variable: requete_update
+2022-06-24 17:00:21.106 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-24 17:00:21.106 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (146)
+2022-06-24 17:00:21.107 ***** ERROR ***** [V9.2.0] cause = Undefined index: update

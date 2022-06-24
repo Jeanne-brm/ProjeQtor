@@ -36,3 +36,24 @@
 2022-06-21 11:28:54.545 ***** ERROR ***** [V9.2.0] ERROR *****
 2022-06-21 11:28:54.546 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (127)
 2022-06-21 11:28:54.546 ***** ERROR ***** [V9.2.0] cause = Undefined index: workloads
+2022-06-21 14:07:04.330 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-21 14:07:04.331 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (28)
+2022-06-21 14:07:04.332 ***** ERROR ***** [V9.2.0] cause = Undefined variable: workloadsNisa
+2022-06-21 14:07:06.628 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-21 14:07:06.629 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (28)
+2022-06-21 14:07:06.629 ***** ERROR ***** [V9.2.0] cause = Undefined variable: workloadsNisa
+2022-06-21 14:14:43.110 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-21 14:14:43.111 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (97)
+2022-06-21 14:14:43.111 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeUpdate
+2022-06-21 14:17:20.840 ===== TRACE ===== DISCONNECTED USER 'admin'
+2022-06-21 14:17:34.660 ===== TRACE ===== Login error for user 'admin'
+2022-06-21 14:17:37.943 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2022-06-21 14:30:29.627 ***** ERROR ***** [V9.2.0] ERROR *****
+2022-06-21 14:30:29.628 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (97)
+2022-06-21 14:30:29.629 ***** ERROR ***** [V9.2.0] cause = Undefined variable: listeWorkloads
+2022-06-21 16:55:49.178 ***** ERROR ***** [V9.2.0] EXCEPTION *****
+2022-06-21 16:55:49.179 ***** ERROR ***** [V9.2.0] on file 'E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLineNisa.php' at line (91)
+2022-06-21 16:55:49.180 ***** ERROR ***** [V9.2.0] cause = Call to undefined function no_null()
+2022-06-21 16:55:49.180 ***** ERROR ***** [V9.2.0]    => #0 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\model\ImputationLine.php (1345) -> include()
+2022-06-21 16:55:49.180 ***** ERROR ***** [V9.2.0]    => #1 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationList.php (534) -> drawLines()
+2022-06-21 16:55:49.180 ***** ERROR ***** [V9.2.0]    => #2 E:\Logiciels\xampp\htdocs\jeanne\ProjeQtor\view\imputationMain.php (36) -> include()

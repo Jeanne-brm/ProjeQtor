@@ -10,7 +10,7 @@
     //Array des imputations ProjeQtor
     $imputations = recupImputations($tab, $nbDays, $listLienProject, $startDate);
 
-    print("<pre>res \n" . print_r($imputations, true) . "</pre>");
+    //print("<pre>res \n" . print_r($imputations, true) . "</pre>");
 
     // Variables de sessions récupérées dans /custom/functionNisa.php (identifiant utilisateur NISA et liste des projets)
     if (isset($_SESSION['idNisa'])){
@@ -21,16 +21,10 @@
 
     if (isset($_SESSION['workloadsNisa'])){
       $workloadsNisa=$_SESSION['workloadsNisa'];
-      print("<pre>" . print_r($workloadsNisa, true) . "</pre>");
+      //print("<pre>workloads NISA" . print_r($workloadsNisa, true) . "</pre>");
     }
 
-    foreach($imputations as $projets){
-      foreach($workloadsNisa as $work){
-       
-        //print("<pre>" . print_r($work, true) . "</pre>");
-        
-      }
-    }
+  
 
     $tests = array();
     $workloads = array();
@@ -38,7 +32,10 @@
     $count = 0; //trouver meilleur moyen de compter si ça existe
     $update=array();
     $tesst=array();
+    //print("<pre>workload" . print_r($workloadsNisa, true) . "</pre>");
+
     
+
 
     //Boucle sur tous les projets ProjeQtor, les compare à la liste des projets NISA et formattage de la requête à envoyer 
     if(isset($idNisa) && isset($listeProjetsNisa)){
@@ -47,10 +44,9 @@
           //if ($projets['Nom'] == $value['project_imput_code']&&$projets['Vide']=='false') {
           if ($projets['Nom'] == $value['project_imput_code']) {
 
-            print_r($projets['Nom'] .'='. $value['project_imput_code']);
+            //print_r($projets['Nom'] .'='. $value['project_imput_code']);
             foreach ($projets['Days'] as $x => $val) {
               if ($val != 0) {
-                echo "oui";
                 $imput = array(
                   'workload_date' => $x,
                   'workload_workload' => $val,
@@ -61,38 +57,20 @@
                   'workload_comment' => 'test',
                 );
                 $count += 1;
-                echo $count;
+                //echo $count;
                 array_push($workloads, $imput);
-                print_r($imput);
+                //print_r($imput);
+                //print("<pre>imput" . print_r($imput, true) . "</pre>");
+
                 $listeWorkloads['id'] = $value['project_id'];
                 $listeWorkloads['workloads'] = $workloads;
                 //print("<pre>ici" . print_r($listeWorkloads, true) . "</pre>");
               } else{
+                //print("<pre>workload" . print_r($workloadsNisa, true) . "</pre>");
                 $date=new DateTime($x);
-
-                
-                //print("<pre>oui" . print_r($tesst, true) . "</pre>");
-
-                //foreach($workloadsNisa as $work){
-
-                  //$work['workload_workload']=0;
-                  //$work['workload_changed']=3;
-                 // $work["workload_comment"]=" ";
-                  //print("<pre>ici" . print_r($work, true) . "</pre>");
-                  //array_push($workloadsNisa,$work);
-                  //1print("<pre>oui" . print_r($workloadsNisa, true) . "</pre>");
-
-
-                //}
                 foreach($workloadsNisa as $work){
-                  //print("<pre>" . print_r($work, true) . "</pre>");
-                  //var_dump($work);
-                  //var_dump($date->format('Y-m-d\TH:i:sP'));
 
-                  if ($work['project_id']=$value['project_id']&&$work['workload_workload']!=0 && $date->format('Y-m-d\TH:i:sP')==$work['workload_date'] ){
-                    print_r($work['project_id']);
-                    //print("<pre>work" . print_r($work, true) . "</pre>");
-                    //print("<pre>value" . print_r($value, true) . "</pre>");
+                  if ($work['project_id']==$value['project_id'] && $work['workload_workload']!=0 && $date->format('Y-m-d\TH:i:sP')==$work['workload_date'] && $val == 0){
 
                     $tes=array(
                       'workload_id'=>$work['workload_id'],
@@ -105,30 +83,42 @@
                       "workload_changed"=> 3,
                       "workload_comment"=> " ",
                     );
+                    
+                    //print("<pre>test" . print_r($tes, true) . "</pre>");
+
                     array_push($update,$tes);
+                    //print("<pre>update" . print_r($update, true) . "</pre>");
+
                   }
-                  $listeUpdate=$update;
-
-
+                  if(!is_null($update)){
+                    $listeUpdate=$update;
+                  }
+                  
+                  //print("<pre>liste" . print_r($listeUpdate, true) . "</pre>");
 
                 }
               }
             }
             if(isset($listeWorkloads)){
               array_push($format, $listeWorkloads);
+              //print("<pre>format" . print_r($format, true) . "</pre>");
             }
+            unset($listeWorkloads);
+            
 
             $workloads = array();
-            $update=array();
-
-            if(isset($listeUpdate)){
-              $requete_update = array(
-                'user_id' => $idNisa,
-                'totalObjects' => count($listeUpdate),
-                'workloads' =>
-                  $listeUpdate
-              );
-            }
+            //$update=array();
+            
+            
+            
+            $requete_update = array(
+              'user_id' => $idNisa,
+              'totalObjects' => count($listeUpdate),
+              'workloads' =>
+                $listeUpdate
+            );
+            //unset($listeUpdate);
+            //print("<pre>requeteupdate" . print_r($requete_update, true) . "</pre>");
 
             $requete = array(
               'user_id' => $idNisa,
@@ -139,15 +129,24 @@
           }
         }
       }
-      if(isset($requete)){
-        print("<pre>" . print_r($requete, true) . "</pre>");
+      //print("<pre>requete" . print_r($requete_update, true) . "</pre>");
+      if(!empty($requete['projects'])){
+        //print("<pre>requete" . print_r($requete, true) . "</pre>");
         $_SESSION['arr'] = $requete;
       }
-      if(isset($requete_update)){
-        print("<pre>requeteupdate" . print_r($requete_update, true) . "</pre>");
+      //print("<pre>requeteupdate" . print_r($requete_update, true) . "</pre>");
+
+      if(!empty($requete_update['workloads'])){
+        //print("<pre>requeteupdate" . print_r($requete_update, true) . "</pre>");
         $_SESSION['update'] = $requete_update;
       }
-    }
+      else if (isset($_SESSION['update'])){
+        unset($_SESSION['update']);
+      }
+      //print("<pre>".print_r($_SESSION['update']  ,true)."</pre>");
+      }
+      
+    
 
     
 

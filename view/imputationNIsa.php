@@ -3,7 +3,11 @@ require_once "../tool/projeqtor.php";
 require_once "../tool/formatter.php";
 ?>
 
+
+
 <script type="text/javascript" src="../../external/dojo/dojo.js?version=<?php echo $version.'.'.$build;?>"></script>
+
+
 
 <div data-dojo-type="dijit/form/DropDownButton" iconClass="iconNisa iconSize22 roundedIconButton imageColorNewGui">
     <span>Login</span><!-- Text for the button -->
@@ -50,10 +54,12 @@ require_once "../tool/formatter.php";
 
         <td style="text-align:center" >
             <div id="result"></div>
-            <button data-dojo-type="dijit/form/Button" data-dojo-id="myToggleButton" onClick="oui(dojo.byId('login').value, dojo.byId('password').value);" iconClass="iconNisa iconSize22 roundedIconButton imageColorNewGui" type="button">
-                bouton dojo
+            <button data-dojo-type="dijit/form/Button" data-dojo-id="myToggleButton" onClick="oui(dojo.byId('login').value, dojo.byId('password').value);refreshImputationList();" iconClass="iconNisa iconSize22 roundedIconButton imageColorNewGui" type="button">
+                Login
             </button>
 
+ 
+            <!--
             <iframe name="votar"></iframe>
             <form action="../model/custom/functionNisa.php" method="post" target="votar">
                 
@@ -64,12 +70,10 @@ require_once "../tool/formatter.php";
                 <input type="submit" value="bouton php">
             </form>
 
-            <button tabindex="3" id="loginButton"  dojoType="dijit.form.Button" type="submit" class="largeTextButton" showlabel="true" >
-            <?php echo i18n('loginLib');?>
-                <script type="dojo/connect" event="onClick" args="evt">
-                    bonjour();
-                </script>
-            </button>
+           
+        -->
+
+            
             
 
         </td>
